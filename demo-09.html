@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0;}
+
+        ul{
+            width: 200px;
+            margin:50px;
+        }
+        li{
+            list-style: none;
+            margin:1px;
+        }
+        li{
+            overflow: hidden;
+            height: 30px;
+        }
+        li.show{
+            height: auto;
+        }
+        li div{
+            margin: 7px 0;
+        }
+        h3{
+            line-height: 30px;
+            text-indent: 10px;
+            background: pink;
+            color:#fff;
+            cursor: pointer;
+        }
+        span{
+            margin-left: 20px;
+        }
+        input{
+            float: right;
+            padding: 3px 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="">
+            <h3>我的好友</h3>
+            <div>
+                <span>二哥</span>
+                <input type="button" value="修改">
+            </div>
+
+            <div>
+                <span>宋承宪</span>
+                <input type="button" value="修改">
+            </div>
+            <div>
+                <span>晓风</span>
+                <input type="button" value="修改">
+            </div>
+
+            <div>
+                <span>萌小白</span>
+                <input type="button" value="修改">
+            </div>
+            <div>
+                <span>小小高</span>
+                <input type="button" value="修改">
+            </div>
+        </li>
+
+        <li class="">
+            <h3>我的学生</h3>
+            <div>
+                <span contenteditable="false">摸你狗头</span>
+                <input type="button" value="修改">
+            </div>
+
+            <div>
+                <span>流了个氓</span>
+                <input type="button" value="修改">
+            </div>
+            <div>
+                <span>莫愁</span>
+                <input type="button" value="修改">
+            </div>
+
+            <div>
+                <span>随意</span>
+                <input type="button" value="修改">
+            </div>
+            <div>
+                <span>修习人生</span>
+                <input type="button" value="修改">
+            </div>
+        </li>
+
+        <li class="">
+            <h3>我的粉丝</h3>
+            <div>
+                <span>朱雀</span>
+                <input type="button" value="修改">
+            </div>
+
+            <div>
+                <span>乌拉</span>
+                <input type="button" value="修改">
+            </div>
+            <div>
+                <span>阿飞</span>
+                <input type="button" value="修改">
+            </div>
+
+            <div>
+                <span>虎妞</span>
+                <input type="button" value="修改">
+            </div>
+            <div>
+                <span>鱼骨头</span>
+                <input type="button" value="修改">
+            </div>
+        </li>
+    </ul>
+</body>
+<script>
+    const list = document.getElementsByTagName("li");
+    const h3list = document.getElementsByTagName("h3");
+    const btn = document.getElementsByTagName("input");
+    const span = document.getElementsByTagName("span");
+    let now = -1;
+
+    for(let i = 0; i< list.length; i++){
+        h3list[i].onclick = function(){
+            if(now !== -1 && now !== i){
+                list[now].className = "";
+            }
+            now = i;
+            list[now].className = list[now].className ? "": "show";
+        }
+    }
+
+    for(let i = 0; i < btn.length; i++){
+        btn[i].mark = true;
+        btn[i].onclick = function(){
+            span[i].contentEditable = this.mark;
+            span[i].focus();
+            this.value = this.value === "修改" ? "确定" : "修改"; /* “修改”对应false, “确定”对应true */
+            this.mark = !this.mark;
+        }
+    }
+</script>
+</html>

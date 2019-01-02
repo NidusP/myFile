@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="write" class="is-node">
+        <h2><a name="header-n34" class="md-header-anchor "></a>第一题</h2>
+        <p>描述</p>
+        <p>假如有一张厚度为1mm的纸，对折多少次可以达到珠穆朗玛峰的高度。</p>
+        <h2><a name="header-n5" class="md-header-anchor "></a>第二题</h2>
+        <p>描述</p><p>一元纸币，二元纸币，五元纸币</p><p>要求：每种面值最低一张，最多不限制。</p>
+        <p>问：有多少种排列能凑够100元。</p>
+        <h2><a name="header-n25" class="md-header-anchor "></a>第三题</h2>
+        <h2><a name="header-n26" class="md-header-anchor "></a>描述：</h2>
+        <p><strong>有一对幼兔，</strong></p>
+        <p><strong>幼兔1个月后长成小兔，</strong></p>
+        <p><strong>小兔1个月后长成成兔并生下一对幼兔</strong></p>
+        <p><strong>问：8个月后有多少对兔子，幼兔、小兔、成兔对数分别是多少。</strong></p>
+    </div>
+</body>
+<script>
+    console.log(Math.floor(Math.log(8848000)/Math.log(2)));
+    let height = 1;
+    for(let i = 0; i < 100; i++){
+        height *= 2;
+        console.log(`第${i}次对折，高度是${height}`)
+        if(height > 8848000){
+            console.log(i);
+            break;
+        }
+    }
+
+    let total = 0;
+    for(let i = 1; i < 94; i++){
+        for(let j = 1; j < 48; j++){
+            for(let k = 1; k < 20; k++) {
+                if(i+2*j+5*k==100){
+                    console.log(i,j,k);
+                    total++;
+                }
+            }
+        }
+    }
+    console.log(total);
+
+    let yt = 1;
+    let xt = 0;
+    let ct = 0;
+    for(let i =0; i < 5; i++){
+        ct += xt;
+        xt = yt;
+        yt = ct;
+    }
+    console.log(`幼兔${yt}对，小兔${xt}对，成兔${ct}对`);
+
+</script>
+</html>

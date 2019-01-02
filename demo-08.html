@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+    window.onload = function(){
+        /*n层的楼梯，每次上k或者j阶，输入n, k, j，输出一共多少种走法到n层，没有返回-1。*/
+        /*let num = prompt("请，输入n, k, j，然后输出一共多少种走法到n层，没有返回-1。","1,3,4");
+        console.log(num)*/
+        function func(n, k, j){
+            let total = 0;
+
+            for(let m =0; m <= n/k; m++){
+                for(let i =0; i <= n/j; i++){
+                    if(n === m*k + i*j){
+                        total++;
+                        console.log(`第${total}种：k为${k}，走了${m}步；j为${j}，走了${i}步。`)
+                    }
+                }
+            }
+            return total || -1;
+        };
+        console.log(func(3,2,1))
+
+    }
+</script>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        li{
+            list-style: none;
+        }
+        #box{
+            width: 400px;
+            height: 300px;
+            margin:50px auto;
+        }
+        .btn{
+            height: 30px;
+        }
+        .btn span{
+            float: left;
+            width: 75px;
+            height: 30px;
+            margin-right:5px;
+            text-align:center;
+            line-height: 30px;
+            background: #aaa;
+            cursor: pointer;
+            color:#fff;
+        }
+        .btn span.on{
+            background: #f60;
+        }
+
+        .banner{
+            position: relative;
+            width: 100%;
+            height: 270px;
+        }
+        .banner>ul{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .banner li{
+            display: none;
+
+        }
+        .banner li.on{
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            font-size:100px;
+            text-align: center;
+            line-height: 270px;
+            color:#fff;
+        }
+        .banner p{
+            position: absolute;
+            height: 25px;
+            width: 100%;
+            text-align: center;
+            line-height: 24px;
+            background: rgba(0,0,0,.3);
+            color:#fff;
+        }
+        .top{
+            top: 0;
+        }
+        .bottom{
+            bottom: 0;
+        }
+        .banner p.btn{
+            height: 70px;
+            width: 35px;
+            top:50%;
+            margin-top:-35px;
+            line-height: 70px;
+            text-align: center;
+            font-size:30px;
+            cursor: pointer;
+        }
+        .banner p.right{
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="banner">
+            <ul>
+                <li style="background: pink">一</li>
+                <li style="background: skyblue">二</li>
+                <li style="background: tan">三</li>
+                <li style="background: purple">四</li>
+                <li style="background: orange">五</li>
+                <li style="background: red">六</li>
+            </ul>
+            <p class="btn left">&lt;</p>
+            <p class="btn right">&gt;</p>
+        </div>
+    </div>
+</body>
+<script>
+    (function(){
+        const prev = document.getElementsByClassName("left")[0];
+        const next = document.getElementsByClassName("right")[0];
+        const cur = document.querySelectorAll(".banner ul li");
+
+        let now = 0;
+        cur[now].className = "on";
+        prev.onclick = function(){
+            cur[now].className = "";
+            now--;
+            if(now <= -1)now = cur.length-1;
+            cur[now].className = "on";
+        };
+
+        next.onclick = function(){
+            cur[now].className = "";
+            now++;
+            if(now >= cur.length)now = 0;
+            cur[now].className = "on";
+        };
+    })();
+</script>
+</html>

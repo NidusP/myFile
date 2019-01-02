@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .wrapper{
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .box{
+        height: 40px;
+        color: deepskyblue;
+        background-color: currentcolor;
+    }
+    nav{
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        height: 0px;
+        color: midnightblue;
+        background-color: currentcolor;
+        transition: height 0.8s;
+    }
+</style>
+<body>
+<div class="wrapper">
+    <div class="box" id="box"></div>
+    <nav></nav>
+</div>
+</body>
+<script>
+    let nav_box = document.getElementsByClassName("box")[0];
+    let nav_box1 = document.getElementById("box");
+    let nav = document.getElementsByTagName("nav")[0];
+
+    nav_box.onmouseenter = function(){
+        nav.style.height = "60px";
+    }
+    nav_box.onmouseleave = function(){
+        nav.style.height = "0px";
+    }
+    nav.onmouseenter = function(){
+        nav.style.height = "60px";
+    }
+    nav.onmouseleave = function(){
+        nav.style.height = "0px";
+    }
+    console.log(nav_box,nav,nav_box1)
+</script>
+</html>

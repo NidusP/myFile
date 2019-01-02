@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Microsoft YaHei, serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #box {
+            margin: 50px auto;
+            width: 997px;
+            height: 455px;
+        }
+
+        #box .head {
+            width: 1000px;
+            height: 50px;
+        }
+
+        #box .head li {
+            float: left;
+            width: 248px;
+            height: 48px;
+            border: 1px solid #c36;
+            border-right: 1px solid #900;
+            background: #CC3366;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        #content {
+            width: 998px;
+            border-left: 1px solid #CC3366;
+            border-right: 1px solid #CC3366;
+            overflow: hidden;
+        }
+
+        #content ul {
+            width: 1000px;
+            border-bottom: 1px solid #900;
+            overflow: hidden;
+        }
+
+        #content ul li {
+            float: left;
+            width: 248.75px;
+            height: 100px;
+            border-right: 1px solid #900;
+            text-align: center;
+            line-height: 100px;
+            position: relative;
+
+        }
+
+        #content ul li img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 90px;
+        }
+
+        #content ul li.num span {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ddd;
+            line-height: 30px;
+            margin: 35px auto;
+            font-weight: bold;
+        }
+
+        #content ul li.num span.add,
+        #content ul li.num span.sub {
+            background: #ddd;
+            cursor: pointer;
+        }
+
+        #content ul li.num span.txt {
+            width: 70px;
+        }
+
+        #foot {
+            margin: 10px auto;
+            width: 1000px;
+            height: 50px;
+            background: #c36;
+        }
+
+        #foot p {
+            width: 250px;
+            float: right;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+
+        #foot p span {
+            color: #ff9;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<div id="box">
+    <ul class='head'>
+        <li>商品</li>
+        <li>单价</li>
+        <li>数量</li>
+        <li style='border-right:1px solid #c36;'>小计</li>
+    </ul>
+
+
+    <div id="content">
+        <ul>
+            <li class='img'>
+                商品一
+            </li>
+            <li class='danjia'>8</li>
+            <li class='num'>
+                <span class='sub'>-</span>
+                <span class='txt'>0</span>
+                <span class='add'>+</span>
+            </li>
+            <li class='xiaoji'>0</li>
+        </ul>
+        <ul>
+            <li class='img'>
+                商品二
+            </li>
+            <li class='danjia'>10</li>
+            <li class='num'>
+                <span class='sub'>-</span>
+                <span class='txt'>0</span>
+                <span class='add'>+</span>
+            </li>
+            <li class='xiaoji'>0</li>
+        </ul>
+        <ul>
+            <li class='img'>
+                商品三
+            </li>
+            <li class='danjia'>12.5</li>
+            <li class='num'>
+                <span class='sub'>-</span>
+                <span class='txt'>0</span>
+                <span class='add'>+</span>
+            </li>
+            <li class='xiaoji'>0</li>
+        </ul>
+        <ul>
+            <li class='img'>
+                商品四
+            </li>
+            <li class='danjia'>23</li>
+            <li class='num'>
+                <span class='sub'>-</span>
+                <span class='txt'>0</span>
+                <span class='add'>+</span>
+            </li>
+            <li class='xiaoji'>0</li>
+        </ul>
+    </div>
+    <div id="foot">
+        <p>合计费用￥
+            <span class='total'>0</span>
+        </p>
+        <p>已选中商品:
+            <span class='numtot'>0</span> 个</p>
+    </div>
+</div>
+
+<script>
+    let price = document.getElementsByClassName("danjia");
+    let sub = document.getElementsByClassName("sub");
+    let txt = document.getElementsByClassName("txt");
+    let add = document.getElementsByClassName("add");
+    let prices = document.getElementsByClassName("xiaoji");
+    let total = document.getElementsByClassName("total")[0];
+    let numTotal = document.getElementsByClassName("numtot")[0];
+
+    const pricesCalc = function(a){
+        prices[a].prices = txt[a].count * price[a].price;
+        let nums = 0;
+        let numsTotal = 0;
+        for(let i = 0; i < add.length; i++){
+            nums += +txt[i].count;
+            numsTotal += +prices[i].prices;
+        }
+        prices[a].innerHTML = prices[a].prices;
+        numTotal.innerHTML = nums;
+        total.innerHTML = numsTotal;
+    }
+    for(let i = 0; i < add.length; i++){
+        txt[i].count = 0;
+        price[i].price = +price[i].innerHTML;
+        prices[i].prices = 0;
+        add[i].onclick = function(){
+            txt[i].count++;
+            txt[i].innerHTML = txt[i].count;
+            pricesCalc(i);
+        };
+
+        sub[i].onclick = function(){
+            if(txt[i].count <= 0)return false;
+            txt[i].count--;
+            txt[i].innerHTML = txt[i].count;
+            pricesCalc(i);
+        };
+    }
+
+/*尽量减少对DOM对象的操作，将值赋值给自定义属性*/
+</script>
+</body>
+
+</html>
+
+</body>
+</html>

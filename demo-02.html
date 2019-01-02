@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .wrapper{
+        margin: 0 auto;
+        width: 50%;
+    }
+    input{
+        display: block;
+        width: 100%;
+        line-height: 3;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="content-add">
+            <div contenteditable="true"></div>
+            <input id="ipt" type="text">
+            <button id="btn">提交</button>
+        </div>
+        <div class="content-list">
+        </div>
+    </div>
+</body>
+<script>
+    let btn = document.getElementById("btn");
+    let ipt = document.getElementById("ipt");
+    let content = document.getElementsByClassName("content-list")[0];
+
+    btn.onclick = function(){
+        console.log(content);
+        content.innerHTML += `<p>${ipt.value}</p>`;
+        ipt.value = "";
+    }
+</script>
+</html>

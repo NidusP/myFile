@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body, ul, h3{margin:0; padding:0;}
+    ul li {list-style: none;}
+    body {font-family: "微软雅黑";}
+    #msg {width:258px; height:468px;margin:0 auto; padding:80px 22px 80px 22px ; background: url(image/iphone.png) no-repeat; }
+    .msg {height:420px; overflow: hidden;}
+    .msg h3 {height: 38px; line-height: 38px; text-align: center;color:#333; font-weight: normal;background-color: #f2f2f2; border-bottom: 1px solid #aaa; margin-bottom: 3px;}
+    .msg ul li {width:200px;height:30px; line-height: 30px; padding:2px; margin-bottom:6px;background-color: #f2f2f2; font-size: 12px; border-radius: 10px;}
+    #form {  height:30px;line-height: 30px;  padding:5px 0px 0px 10px ; background-color: #f2f2f2;}
+    .text { width:160px;height:20px; padding-left:10px; border: 1px solid #a2a2a2; border-radius: 10px;}
+    .btn {font-size: 16px;  color:#333; border:0;background: none;  }
+    img {width:20px; height:20px; margin-right:2px; vertical-align: middle}
+</style>
+<body>
+    <div id="msg">
+        <div class="msg">
+            <h3>桃源结义情</h3>
+            <ul>
+
+            </ul>
+        </div>
+        <form id="form">
+            <img src="image/1.jpg" id="img" width="20px" height="20px">
+            <input type="text" class="text" placeholder="你想对我说点什么" id="text">
+            <input type="button" class="btn" id="btn" value="发送">
+        </form>
+    </div>
+</body>
+<script>
+    (function(){
+        let img = document.getElementById("img");
+        let btn = document.getElementById("btn");
+        let text = document.getElementById("text");
+        let msg = document.querySelector("#msg ul");
+        let name = "小易";
+        img.onclick = function(){
+            if(img.src.split('/')[img.src.split('/').length-1] === '1.jpg'){
+                img.src = 'image/2.jpg';
+                name = "小星";
+            }else{
+                img.src = 'image/1.jpg';
+                name = "小易";
+            }
+        };
+        btn.onclick = function(){
+            if(!text.value.trim()){alert("发送内容不能为空");return false;}
+            msg.innerHTML += `  <li><img src=${img.src}>${name}：${text.value}</li>`;
+        };
+    })()
+</script>
+</html>
