@@ -1,0 +1,112 @@
+.main{
+    margin-top: -180px;
+}
+.list-nav{
+    position: absolute;
+    top: -0px;
+    left: -282px;
+    height: 100%;
+    padding: 16px;
+    border: 1px solid #babbbb;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.list-title{
+    width: 232px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    background-image: url("menu_bg.jpg");
+    background-repeat: no-repeat;
+    user-select: none;
+}
+.nav-drop ul li{
+    line-height: 48px;
+    text-align: center;
+    color: #898989;
+}
+.nav-drop ul li.active{
+    color: #fc9b02;
+}
+
+.list-nav > ul{
+    padding: 0 40px;
+}
+.item-title{
+    line-height: 45px;
+    text-align: center;
+    font-size: 22px;
+    color: #01447d;
+    background: url("arrows.png") left center no-repeat;
+}
+.list-content{
+    margin-left: 280px;
+    width: 918px;
+    box-sizing: border-box;
+    position: relative;
+}
+.list-content > ul{
+    padding: 50px;
+    border: 1px solid #babbbb;
+    background-color: #ffffff;
+}
+.list-content > ul li{
+    line-height: 50px;
+}
+
+.currpage{
+    font-size: 16px;
+    line-height: 48px;
+    color: #6e6d6d;
+}
+.article-detail{
+    padding: 40px 80px;
+    background-color: #fff;
+    border: 1px solid #babbbb;
+}
+.detail-title{
+    color: #023373;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+.detail-desc{
+    padding: 20px;
+    color: #6e6d6d;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.qone, .sina, .swx {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+.sina {
+    background: url(sina.png) no-repeat;
+}
+.swx {
+    margin-left: 20px;
+    background: url(wchart.png) no-repeat;
+}
+.wx2wm{
+    position:absolute;
+    top:-10px;
+    left:-40px;
+    border:1px solid #d7d7d7;
+    width:240px;
+    height:300px;
+    background:#fff;
+    padding: 10px 10px 0 10px;
+    font-size:12px;
+    line-height:22px;
+    display:none;
+}
+.wx2wm p{
+    margin: 0;
+}

@@ -1,0 +1,134 @@
+body, p, h1, h2, h3, h4, h5, h6, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 2;
+    font-family: PingFangSC-Regular, "Microsoft YaHei";
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.25s;
+}
+a:hover{
+    transition: all 0.25s;
+}
+img{
+    display: block;
+    border: none;
+}
+
+.foot{
+    margin-top: 30px;
+    color: #fff;
+}
+.contact{
+    font-size: 0;
+    line-height: 136px;
+    background-color: #0f5494;
+}
+.contact .c_left{
+    display: inline-block;
+    width: 160px;
+    line-height: 68px;
+    font-size: 24px;
+    background-color: #4371a9;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+.contact .c_middle{
+    margin-left: 70px;
+    display: inline-block;
+    width: 800px;
+    text-align: left;
+    position: relative;
+    vertical-align: middle;
+}
+.contact .c_middle::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 60px;
+    background-color: #fff;
+}
+.contact .c_middle dl{
+    display: table-row;
+}
+.contact .c_middle dt{
+    display: table-cell;
+    font-size: 18px;
+    line-height: 2;
+}
+.contact .c_right{
+    margin: 0  0  0  45px;
+    display: inline-block;
+    vertical-align: -30px;
+}
+.copyright{
+    font-size: 14px;
+    line-height: 2.6;
+    background-color: #6fa5d2;
+    text-align: center;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.68);
+    border-radius: 2px;
+}
+.layout{
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+/*.wrapper{
+    margin: 0 auto;
+}*/
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fr{
+    float: right;
+}
+
+.sina, .swx {
+    width: 26px;
+    height: 26px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+.sina {
+    background: url(sina.png) no-repeat;
+}
+.swx {
+    background: url(wchart.png) no-repeat;
+}
+.wx2wm{
+    position:absolute;
+    top:-10px;
+    left:-40px;
+    border:1px solid #d7d7d7;
+    width:240px;
+    height:300px;
+    background:#fff;
+    padding: 10px 10px 0 10px;
+    font-size:12px;
+    line-height:22px;
+    display:none;
+}
+.wx2wm p{
+    margin: 0;
+}

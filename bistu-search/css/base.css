@@ -1,0 +1,224 @@
+body, p, h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 0;
+    font-family: PingFangSC-Regular, "Microsoft YaHei";
+    font-weight: normal;
+    line-height: 1.42857143;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    padding: 10px 30px;
+    background-color: #063f98;
+    position: relative;
+}
+.header .right{
+    height: 28px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 30px;
+    margin: auto;
+}
+.header .right .input{
+    width: 114px;
+    height: 28px;
+    background: url("../images/search.png") 95px center no-repeat #3866ad;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.header .right .nav{
+    display: inline-block;
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/nav.png");
+    vertical-align: middle;
+}
+.search_form{
+    display: inline-block;
+}
+.results{
+    padding-bottom: 10px;
+}
+.results .detail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px #CCCCCC solid;
+}
+.results .detail .title{
+    line-height: 28px;
+    font-weight: bolder;
+}
+.results .detail .abstract{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.85em;
+    line-height: 20px;
+}
+.results .detail .abstract em{
+    color: #004098;
+    font-style: normal;
+}
+.results .detail .links{
+    color: #4D9109;
+    font-size: 0.75em;
+    line-height: 20px;
+}
+.results .detail .links .time{
+    color: #999999;
+
+}
+
+.form_wrapper{
+    padding: 10px 4%;
+}
+.form_wrapper .logo{
+    float: left;
+    vertical-align: bottom;
+}
+.form_wrapper .result_info{
+    margin-top: 15px;
+    color: #666;
+    font-size: 0.875em;
+}
+.form_info{
+    padding-left: 180px;
+    padding-right: 120px;
+    box-sizing: border-box;
+}
+.form_info .tab{
+    display: inline-block;
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.form_info .tab.act{
+    background-color: #004098;
+    color: #fff;
+}
+.form_info .input{
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0;
+    border: 1px #ccc solid;
+    box-sizing: border-box;
+    outline: none;
+    text-indent: 1em;
+}
+.form{
+    padding-left: 0px;
+}
+.form_wrapper .search{
+    position: absolute;
+    margin-left: 20px;
+    width: 100px;
+    line-height: 40px;
+    height: 40px;
+    background-color: #004098;
+    text-align: center;
+    color: #fff;
+}
+
+.foot{
+    padding: 28px 30px;
+    font-size: 0.75em;
+    color: #fff;
+    background-color: #004098;
+}
+.foot img{
+    float: left;
+}
+.foot .dec{
+
+    text-align: right;
+    line-height: 20px;
+}
+
+.foot_mobile{
+    display: none;
+    height: 0;
+    padding-bottom: 50%;
+    font-size: 0.75em;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-image: url("../images/foot.png");
+    background-size: 100% 100%;
+}
+.sm{
+    padding-top: 14%;
+}
+.tj{
+    float: right;
+}
+.tj .drop_down{
+    display: inline-block;
+    width: 65px;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 15px;
+    background: url("../images/arrows.png") center right no-repeat;
+    position: relative;
+}
+.tj .drop_down ul{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+    background: #fff;
+    border: 1px  #EEEEEE solid;
+    box-shadow: 0 0 6px 3px #ffffff45;
+    text-align: center;
+}
+.tj .drop_down ul li{
+    line-height: 34px;
+    cursor: pointer;
+}
+
+
+.search_form{
+    display: none;
+}
+
+#navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    padding: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav li {
+    background: rgba(0, 0, 0, 0.90);
+}
+
+.nav li a {
+    font-size: 16px;
+    padding: 14px 0px;
+    color: #fff;
+    border-bottom: 2px solid rgba(256, 256, 256, 0.20);
+    margin: 0;
+    line-height: normal;
+    transition: 0s all;
+}
+.nav li a:hover {
+    background: #FFFFFF;
+    color: #063F98;
+}

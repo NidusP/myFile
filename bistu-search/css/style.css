@@ -1,0 +1,29 @@
+@media only screen and (max-width: 481px) {
+    .foot{
+        display: none;
+    }
+    .foot_mobile{
+        display: block;
+    }
+    .tj{
+        display: none;
+    }
+}
+@media only screen and (max-width: 606px) {
+    .form_wrapper .logo{
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+    .form_info{
+        padding: 10px 120px 10px 0px;
+    }
+    .form_info .tab{
+        width: 60px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .search_form{
+        display: none;
+    }
+}

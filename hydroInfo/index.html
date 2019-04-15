@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>全国水雨情信息</title>
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="top">
+                <span id="date"></span>
+                <span class="fr">欢迎您的到来!
+                    <a href="javascript:;" onclick="SetHome(this,'http://www.xyz.com');">设为首页</a>
+                    <a href="javascript:;" onclick="addFavorite(document.title,window.location)">加入收藏</a></span>
+            </div>
+            <img src="image/1.jpg" width="1002" height="109">
+        </div>
+        <div class="content">
+            <div class="nav">
+                <li class="on"><a href="#">首页</a></li>
+                <li><a href="#">洪旱告警</a></li>
+                <li><a href="#">水情查询</a></li>
+                <li><a href="#">航道水雨情</a></li>
+                <li><a href="#">水库水雨情</a></li>
+                <li><a href="#">水利风景区</a></li>
+                <li><a href="#">地图服务</a></li>
+            </div>
+            <div class="ysq clearfix">
+                <h3 class="fl">[ 今日水雨情 ]：</h3>
+                <div class="fl scroll">
+                    <p><a href="javascript:;"><span id="scroll1">2014年第17期6月9日8时至10日8时，全国降水主要分布在云南、贵州、重庆、广西、广东、内蒙古
+                        等部分地区，雨量一般为10-25毫米，其中广西、贵州、广东、云南局部地区降了暴雨到大暴雨，广西百色红稠216毫
+                        米，贵州黔西南秧坝156毫米，广西清远风云134毫米，云南曲靖活水131毫米。全国主要江河水情平稳。</span></a>
+                        <a href="javascript:;"><span id="scroll2"></span></a></p>
+                </div>
+            </div>
+            <div class="news" style="height: 300px;">
+                <div class="swiper-container fl" style="width: 500px; height: 300px;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image: url('image/demo1.jpg'); background-size: 100% 100%"><h4>汪洋：全力做好今年防汛抗旱防台风工作</h4></div>
+                        <div class="swiper-slide" style="background-image: url('image/demo1.jpg'); background-size: 100% 100%"><h4>汪洋：全力做好今年防汛抗旱防台风工作</h4></div>
+                        <div class="swiper-slide" style="background-image: url('image/demo1.jpg'); background-size: 100% 100%"><h4>汪洋：全力做好今年防汛抗旱防台风工作</h4></div>
+                    </div>
+                    <div class="tabs">
+                        <a href="javascript:;" class="active">1</a>
+                        <a href="javascript:;">2</a>
+                        <a href="javascript:;">3</a>
+                    </div>
+                </div>
+                <div class="news-item fl">
+                    <h3>水利要闻<a class="fr" href="#">更多>></a></h3>
+                    <ul>
+                        <li><a href="#">汪洋主持召开国家防总专题会议 进一步安汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">国家防总传达贯彻李克强总理对东北等地汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">平顶山市应急调水水头已到达白龟山水库汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">东北地区西部旱情继续发展 辽宁吉林两省汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">《求是》发表陈雷署名文章：新时期治水汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">云南鲁甸红石岩堰塞湖应急排险处置阶段汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">水利部布置进一步加快一般小（2）型病险汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">水利部布置进一步加快一般小（2）型病险汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                        <li><a href="#">水利部布置进一步加快一般小（2）型病险汪洋主持召开国家防总专题会议 进一步安...</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main clearfix">
+                <div class="main-left fl">
+                    <div class="main_info">
+                        <h3>热点信息</h3>
+                            <div style="width:668px ; height: 348px; background: url('image/demo2.png')  no-repeat; background-size: 100% 100%;">
+                        </div>
+                    </div>
+                    <div class="main_info1">
+                        <h3>全国重点实时水情</h3>
+                        <h4 class="caption">全国重点河道站实时水情</h4>
+                        <div class="table1">
+                            <table class=""  cellspacing="0" cellpadding="0" >
+                                <tr class="item">
+                                    <td>站名</td>
+                                    <td>站址</td>
+                                    <td>河名</td>
+                                    <td>水位（米）</td>
+                                    <td>流量（米/每秒）</td>
+                                    <td>时间</td>
+                                    <td>警戒水位（米）</td>
+                                </tr>
+                                <tr class="item_info">
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                <td>哈尔滨</td>
+                                <td>黑-哈尔滨</td>
+                                <td>黑-哈尔滨</td>
+                                <td>116.67</td>
+                                <td>2350</td>
+                                <td>09-16 08:00</td>
+                                <td>118.10</td>
+                            </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <h4 class="caption">全国重点河道站实时水情</h4>
+                        <div class="table1">
+                            <table class=""  cellspacing="0" cellpadding="0" >
+                                <tr>
+                                    <td>站名</td>
+                                    <td>站址</td>
+                                    <td>河名</td>
+                                    <td>水位（米）</td>
+                                    <td>流量（米/每秒）</td>
+                                    <td>时间</td>
+                                    <td>警戒水位（米）</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                                <tr>
+                                    <td>哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>黑-哈尔滨</td>
+                                    <td>116.67</td>
+                                    <td>2350</td>
+                                    <td>09-16 08:00</td>
+                                    <td>118.10</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="table2"></div>
+                    </div>
+                </div>
+                <div class="main-right fl">
+                    <div class="warning mb">
+                        当前水情告警5个，超警戒水位水库10个
+                    </div>
+                    <div class="warning_info mb">
+                        <h3>超警信息</h3>
+                        <ul>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+                            <li><span>东山</span><span>水位：170.45</span><span>超：<em>0.25</em></span></li>
+
+                        </ul>
+                    </div>
+                    <div class="sundry mb">
+                        <h3>水利百科</h3>
+                        <ul>
+                            <li><a href="#">防汛知识</a><a href="#">防汛抢险基本知识</a></li>
+                            <li><a href="#">水利知识</a><a href="#">水利科普名称解释</a></li>
+                            <li><a href="#">中国七大水系</a><a href="#">水雨情常识</a></li>
+                        </ul>
+                    </div>
+                    <div class="links mb">
+                        <h3>防汛抗旱信息服务</h3>
+                        <ul class="clearfix">
+                            <li><img src="image/1.png" ><h4>日雨量</h4></li>
+                            <li><img src="image/2.png" ><h4>热带气旋</h4></li>
+                            <li><img src="image/3.png" ><h4>卫星云图</h4></li>
+                            <li><img src="image/4.png" ><h4>气温</h4></li>
+                            <li><img src="image/5.png" ><h4>日降水</h4></li>
+                            <li><img src="image/6.png" ><h4>月降水</h4></li>
+                        </ul>
+                    </div>
+                    <div class="links  mb" style="width: 315px">
+                        <h3>地方水利网站</h3>
+                        <ul class="clearfix">
+                            <li class="fl"><a href="http://www.bjwater.gov.cn/">北京</a></li>
+                            <li class="fl"><a href="http://swj.tj.gov.cn/">天津</a></li>
+                            <li class="fl"><a href="http://www.hebwater.gov.cn/">河北</a></li>
+                            <li class="fl"><a href="http://www.sxwater.gov.cn/">山西</a></li>
+                            <li class="fl"><a href="http://www.nmgslw.gov.cn/">内蒙古</a></li>
+                            <li class="fl"><a href="http://www.lnwater.gov.cn/">辽宁</a></li>
+                            <li class="fl"><a href="http://slt.jl.gov.cn/">吉林</a></li>
+                            <li class="fl"><a href="http://www.hljsl.gov.cn/">黑龙江</a></li>
+                            <li class="fl"><a href="http://www.shanghaiwater.gov.cn/">上海</a></li>
+                            <li class="fl"><a href="http://jswater.jiangsu.gov.cn/">江苏</a></li>
+                            <li class="fl"><a href="http://www.zjwater.com/">浙江</a></li>
+                            <li class="fl"><a href="http://www.ahsl.gov.cn/">安徽</a></li>
+                            <li class="fl"><a href="http://slt.fujian.gov.cn/">福建</a></li>
+                            <li class="fl"><a href="http://www.jxsl.gov.cn/">江西</a></li>
+                            <li class="fl"><a href="http://www.sdwr.gov.cn/">山东</a></li>
+                            <li class="fl"><a href="http://www.hnsl.gov.cn/">河南</a></li>
+                            <li class="fl"><a href="http://www.hubeiwater.gov.cn/">湖北</a></li>
+                            <li class="fl"><a href="http://slt.hunan.gov.cn/">湖南</a></li>
+                            <li class="fl"><a href="http://www.gdwater.gov.cn/">广东</a></li>
+                            <li class="fl"><a href="http://www.gxwater.gov.cn/">广西</a></li>
+                            <li class="fl"><a href="http://swt.hainan.gov.cn/">海南</a></li>
+                            <li class="fl"><a href="http://www.cqwater.gov.cn/">重庆</a></li>
+                            <li class="fl"><a href="http://www.scwater.gov.cn/">四川</a></li>
+                            <li class="fl"><a href="http://www.gzmwr.gov.cn/">贵州</a></li>
+                            <li class="fl"><a href="http://www.wcb.yn.gov.cn/">云南</a></li>
+                            <li class="fl"><a href="http://slt.xizang.gov.cn/">西藏</a></li>
+                            <li class="fl"><a href="http://www.sxmwr.gov.cn/">陕西</a></li>
+                            <li class="fl"><a href="http://www.gssl.gov.cn/">甘肃</a></li>
+                            <li class="fl"><a href="http://www.nxsl.gov.cn/">宁夏</a></li>
+                            <li class="fl"><a href="http://www.qhsl.gov.cn/">青海</a></li>
+                            <li class="fl"><a href="http://www.xjslt.gov.cn/">新疆</a></li>
+                            <li class="fl"><a href="http://www.swj.dl.gov.cn/">大连</a></li>
+                            <li class="fl"><a href="http://www.nbwater.gov.cn/">宁波</a></li>
+                            <li class="fl"><a href="http://sl.xm.gov.cn/">厦门</a></li>
+                            <li class="fl"><a href="http://slj.qingdao.gov.cn/">青岛</a></li>
+                            <li class="fl"><a href="http://www.szwrb.gov.cn/">深圳</a></li>
+                            <li class="fl"><a href="http://btslj.xjbt.gov.cn/">新疆生产建设兵团</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="links df" style="width: 315px">
+                        <h3>流域网站</h3>
+                        <ul class="clearfix">
+                            <li class="fl"><a href="http://www.cjw.gov.cn/">长江流域</a></li>
+                            <li class="fl"><a href="http://www.yellowriver.gov.cn/">黄河流域</a></li>
+                            <li class="fl"><a href="http://www.hrc.gov.cn/">淮河流域</a></li>
+                            <li class="fl"><a href="http://www.hwcc.gov.cn/">海河流域</a></li>
+                            <li class="fl"><a href="http://www.pearlwater.gov.cn/">珠江流域</a></li>
+                            <li class="fl"><a href="http://www.pearlwater.gov.cn/">松辽流域</a></li>
+                            <li class="fl"><a href="http://www.tba.gov.cn/">太湖流域</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sights">
+                <h3>水利风景区</h3>
+                <div class="images">
+                    <img src="image/demo3.png">
+                </div>
+            </div>
+
+            <div class="picMarquee-left">
+                <div class="hd">
+                    <a class="next"></a>
+                    <a class="prev"></a>
+                </div>
+                <div class="bd">
+                    <ul class="picList">
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic1.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图1</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic2.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图2</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic3.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图3</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic4.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图4</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic5.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图5</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic6.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图6</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic1.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图1</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic2.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图2</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic3.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图3</a></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="./image/pic4.jpg" /></a></div>
+                            <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图4</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>京ICP备05071784号  ▕   中华人民共和国水利部 版权所有</p>
+        </div>
+    </div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/jquery.SuperSlide.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var mySwiper = $('.swiper-container').swiper({
+            loop: true,
+            autoplay: 0,
+            onSlideChangeStart: function(){
+                $(".tabs .active").removeClass('active');
+                $(".tabs a").eq(mySwiper.activeLoopIndex).addClass('active');
+            }
+        });
+        $(".tabs a").on('touchstart mousedown',function(e){
+            e.preventDefault()
+            $(".tabs .active").removeClass('active')
+            $(this).addClass('active')
+            mySwiper.swipeTo( $(this).index() )
+        });
+        $(".tabs a").click(function(e){
+            e.preventDefault()
+        })
+    });
+
+
+    jQuery(".picMarquee-left").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:6,interTime:25,trigger:"click"});
+
+    var scroll = document.querySelector(".scroll");
+    var scroll1 = document.querySelector("#scroll1");
+    var scroll2 = document.querySelector("#scroll2");
+
+    scroll2.innerHTML=scroll1.innerHTML
+    function Marquee(){
+        if(scroll2.offsetWidth-scroll.scrollLeft<=0)
+            scroll.scrollLeft-=scroll1.offsetWidth
+        else{
+            scroll.scrollLeft++
+        }
+    }
+    var MyMar=setInterval(Marquee,30)
+    scroll.onmouseover=function() {clearInterval(MyMar)}
+    scroll.onmouseout=function() {MyMar=setInterval(Marquee,30)}
+
+
+    function detectZoom (){
+        var ratio = 0,
+            screen = window.screen,
+            ua = navigator.userAgent.toLowerCase();
+
+        if (window.devicePixelRatio !== undefined) {
+            ratio = window.devicePixelRatio;
+        }
+        else if (~ua.indexOf('msie')) {
+            if (screen.deviceXDPI && screen.logicalXDPI) {
+                ratio = screen.deviceXDPI / screen.logicalXDPI;
+            }
+        }
+        else if (window.outerWidth !== undefined && window.innerWidth !== undefined) {
+            ratio = window.outerWidth / window.innerWidth;
+        }
+
+        if (ratio){
+            ratio = Math.round(ratio * 100);
+        }
+
+        return ratio;
+    };
+    console.log(detectZoom());
+
+
+</script>
+</body>
+</html>

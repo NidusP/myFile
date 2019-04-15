@@ -1,0 +1,125 @@
+body, ul ,li, h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+body{
+    font-size: 15px;
+    font-family: "微软雅黑", "Microsoft Yahei";
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    border: 0;
+    display: block;
+}
+
+
+.fr{
+    float: right;
+}
+
+.fl{
+    float: left;
+}
+.mr{
+    margin-right: 34px;
+}
+.mr20{
+    margin-right: 20px;
+}
+.wrapper{
+    max-width: 1920px;
+    background: url("bg.jpg") top center no-repeat #f1f1f1;
+}
+
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.slideBox {
+    width: 570px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+}
+
+.slideBox .bd {
+    position: relative;
+    height: 360px;
+}
+
+.slideBox .bd li {
+    zoom: 1;
+    vertical-align: middle;
+}
+
+.slideBox .bd li a {
+    display: block;
+    position: relative;
+    height: 360px;
+}
+
+.slideBox .bd li a img {
+    width: 570px;
+    height: 360px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.slideBox .bd li a span {
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 570px;
+    line-height: 42px;
+    background: rgba(0,0,0,0.5);
+    padding-right: 118px;
+    padding-left: 20px;
+    color: #fff;
+    z-index: 2;
+}
+
+.hd {
+    position: absolute;
+    right: 8px;
+    bottom: 13px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.hd ul {
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.hd li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid white;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.hd li.on {
+    background: red;
+}

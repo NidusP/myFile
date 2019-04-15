@@ -1,0 +1,80 @@
+body, p, h1, h2, h3, h4, h5, h6, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 2;
+    font-family: PingFangSC-Regular, "Microsoft YaHei";
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    display: block;
+    border: none;
+}
+.foot{
+    text-align: center;
+    line-height: 80px;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.68);
+    border-radius: 2px;
+    box-shadow: 0 0 5px 2px #b9b9b9;
+}
+.layout{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url("20190404_banner_1.jpg") no-repeat center top;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fr{
+    float: right;
+}
+
+.sina, .swx {
+    width: 26px;
+    height: 26px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+.sina {
+    background: url(sina.png) no-repeat;
+}
+.swx {
+    background: url(wchart.png) no-repeat;
+}
+.wx2wm{
+    position:absolute;
+    top:-10px;
+    left:-40px;
+    border:1px solid #d7d7d7;
+    width:240px;
+    height:300px;
+    background:#fff;
+    padding: 10px 10px 0 10px;
+    font-size:12px;
+    line-height:22px;
+    display:none;
+}
+.wx2wm p{
+    margin: 0;
+}

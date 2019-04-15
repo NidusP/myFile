@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>全国水雨情信息</title>
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/list.css" rel="stylesheet" type="text/css">
+    <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="top">
+            <span id="date"></span>
+            <span class="fr">欢迎您的到来!
+                    <a href="javascript:;" onclick="SetHome(this,'http://www.xyz.com');">设为首页</a>
+                    <a href="javascript:;" onclick="addFavorite(document.title,window.location)">加入收藏</a></span>
+        </div>
+        <img src="image/1.jpg" width="1002" height="109">
+    </div>
+    <div class="content">
+        <div class="nav">
+            <li class="on"><a href="#">首页</a></li>
+            <li><a href="#">洪旱告警</a></li>
+            <li><a href="#">水情查询</a></li>
+            <li><a href="#">航道水雨情</a></li>
+            <li><a href="#">水库水雨情</a></li>
+            <li><a href="#">水利风景区</a></li>
+            <li><a href="#">地图服务</a></li>
+        </div>
+
+        <div class="items">
+            <div class="items-nav">
+                <a href="#"><li>地图查询</li></a>
+                <a href="#"><li class="on">大江大河</li></a>
+                <a href="#"><li>大型水库</li></a>
+                <a href="#"><li>重点雨水情</li></a>
+                <a href="#"><li>全国日雨量</li></a>
+            </div>
+
+            <!--表格、地图内容显示-->
+            <div id="hdcontent">
+                <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                    <td align="center" class="tabletit">
+                        <font class="wordShowTitle">全国大江大河实时水情</font>
+                    </td>
+                </tr>
+                </tbody></table>
+                <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                    <td align="center" class="tabletit">
+                        <font class="wordShow">编制:水利部水文局</font>
+                    </td>
+                    <td align="center" class="tabletit">
+                        <font class="wordShow">报表日期:<span id="hddate">2019年1月30日</span></font>
+                    </td>
+                </tr>
+                </tbody></table>
+                <table align="center" width="100%" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" style="MARGIN:auto;BORDER-COLLAPSE: collapse">
+                    <tbody><tr class="th-title">
+                        <td width="13%" align="center" class="sstable">流域</td>
+                        <td width="13%" align="center" class="sstable">行政区</td>
+                        <td width="16%" align="center" class="sstable">河名</td>
+                        <td width="12%" align="center" class="sstable">站名</td>
+                        <td width="10%" align="center" class="sstable">时间</td>
+                        <td width="14%" align="center" class="sstable">水位(米)</td>
+                        <td width="12%" align="center" class="sstable">流量(米<sup>3</sup>/秒)</td>
+                        <td width="10%" align="center" class="sstable">警戒水位(米)</td>
+                    </tr>
+                </tbody></table>
+                <div id="hdtable" class="ssdiv">
+                    <table width="1002" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" style="MARGIN:auto;BORDER-COLLAPSE: collapse">
+                    <tbody><tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">其他流域</td>
+                        <td align="center" width="13%" class="sstable">甘肃</td>
+                        <td align="center" width="16%" class="sstable">八宝河</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">祁连</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">2594.15<em class="keep">—</em></td>
+                        <td align="center" width="12%" class="sstable">4.46</td>
+                        <td align="center" width="10%" class="sstable">2596.10</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">其他流域</td>
+                        <td align="center" width="13%" class="sstable">甘肃</td>
+                        <td align="center" width="16%" class="sstable">八宝河</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">祁连</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">2594.15<em class="keep">—</em></td>
+                        <td align="center" width="12%" class="sstable">4.46</td>
+                        <td align="center" width="10%" class="sstable">2596.10</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-2">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">黑龙江</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">哈尔滨</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">115.49<em class="down">↓</em></td>
+                        <td align="center" width="12%" class="sstable">485</td>
+                        <td align="center" width="10%" class="sstable">118.10</td>
+                    </tr>
+                    <tr class="td-show-1">
+                        <td align="center" width="13%" class="sstable">松辽</td>
+                        <td align="center" width="13%" class="sstable">吉林</td>
+                        <td align="center" width="16%" class="sstable">松花江</td>
+                        <td align="center" width="12%" class="sstable" style="cursor:hand;color:#0023E1">扶余</td>
+                        <td align="center" width="10%" class="sstable">01-30 08:00</td>
+                        <td align="center" width="14%" class="sstable" style="cursor:hand;color:#0023E1">129.87<em class="up">↑</em></td>
+                        <td align="center" width="12%" class="sstable">335</td>
+                        <td align="center" width="10%" class="sstable">133.56</td>
+                    </tr>
+                    </tbody></table></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>京ICP备05071784号  ▕   中华人民共和国水利部 版权所有</p>
+    </div>
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/jquery.SuperSlide.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

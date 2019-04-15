@@ -1,0 +1,201 @@
+.top{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    position: relative;
+}
+.form{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Adobe Fan Heiti Std B";
+    background-color: #0166b0;
+}
+.form input{
+    width: 196px;
+    height: 34px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #cff5ff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    vertical-align: bottom;
+}
+.form span, .form a{
+    padding: 0 20px;
+}
+.main{
+    margin: 0 auto;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+
+}
+.main .nav{
+    margin-left: -43px;
+    margin-bottom: 20px;
+    width: 1226px;
+    height: 71px;
+    line-height: 71px;
+    color: white;
+    font-size: 22px;
+    background: url("nav_bg.png") no-repeat top center;
+}
+.main .nav .home{
+    position: absolute;
+    left: 58px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+}
+.main .nav ul{
+    padding-left: 150px;
+    position: relative;
+}
+.main .nav li{
+    float: left;
+    width: 130px;
+}
+
+.main-item-content{
+    width: 512px;
+    line-height: 30px;
+}
+.main-item-content .item-title{
+    font-size: 24px;
+    color: #024991;
+    text-align: center;
+}
+.main-item-content .item-abstract{
+    padding: 0 12px 10px 12px;
+    border-bottom: 1px dashed black;
+}
+.main-item-content ul li{
+    position: relative;
+    text-indent: 20px;
+}
+.main-item-content ul li::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.main-item{
+    width: 366px;
+    height: 280px;
+    float: left;
+}
+.main-item h3{
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #555555;
+    text-indent: 10px;
+    border-bottom: 1px solid #c5c5c5;
+    position: relative;
+}
+.main-item h3:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 110px;
+    height: 5px;
+    background-color: #0376b2;
+}
+.main-item:nth-child(6) h3:after,.main-item:nth-child(7) h3:after,.main-item:nth-child(8) h3:after{
+    background-color: #02bce4;
+}
+.main-item h3 span{
+    font-size: 14px;
+    font-family: SimSun, "宋体";
+    line-height: 48px;
+    color: #7b7b7b;
+}
+.main-item ul li{
+    line-height: 38px;
+    padding-left: 20px;
+    position: relative;
+}
+.main-item ul li:before{
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 6px;
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.item-img{
+    width: 298px;
+    margin: 6px auto 0 auto;
+
+}
+.main-link{
+    height: 160px;
+}
+.main-link>ul{
+    position: relative;
+    margin-top: 10px;
+    padding: 0 10px;
+    border-top: 5px solid #0052a6;
+    border-bottom: 1px solid #000;
+}
+.main-link>ul>li{
+    float: left;
+    padding-right: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    line-height: 60px;
+    color: #4e4e4e;
+}
+.main-link .links{
+    background-image: url("triangle.jpg");
+    background-repeat: no-repeat;
+    background-position: 125px 25px;
+    cursor: pointer;
+}
+.main-link .links .detail-link{
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    width: 100%;
+
+}
+.main-link .links .detail-link li{
+    float: left;
+    width: 30%;
+    font-size: 15px;
+    line-height: 32px;
+}
+.main-link .links .detail-link2 li{
+    width: 7%;
+}
+.foot{
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+}
+
+.main-items > ul > li{
+    line-height: 38px;
+}
+
+.main-items > ul > li:hover{
+    color: #0376b2;
+}

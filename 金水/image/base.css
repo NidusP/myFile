@@ -1,0 +1,257 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin:0;
+    padding:0;
+}
+body{
+    position: relative;
+    z-index: -2;
+    font-size: 16px;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset, img {
+    border:0;
+}
+ol, ul {
+    list-style:none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.fl{
+    float: left;
+}
+
+/*六边形*/
+.hexagon {
+    width: 236px;
+    height: 136px;
+    border-left: 2px solid #e1e1e1;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.hexagon::before{
+    content: "";
+    position: absolute;
+    right: -2px;
+    width: 2px;
+    height: 136px;
+    z-index: -1;
+    background-image: linear-gradient(to right, #1b3363, #949fb3);
+}
+.hexagon_top {
+    position: absolute;
+    top: -70px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 118px solid transparent;
+    border-right: 118px solid transparent;
+    border-bottom: 70px solid white;
+}
+.hexagon_top::after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -120px;
+    z-index: -1;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 71px solid #1e56b3;
+}
+.hexagon_bottom {
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 118px solid transparent;
+    border-right: 118px solid transparent;
+    border-top: 70px solid white;
+}
+.hexagon_bottom::after{
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: -120px;
+    z-index: -1;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 71px solid #cfcfd1;
+}
+
+.hexagon h4, .hexagon_big h4{
+    border-bottom: 2px solid #001d53;
+    background-image: linear-gradient(to bottom, #0056db, #01051e);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 178px;
+    font-size: 1.875rem;
+    text-align: center;
+    user-select: none;
+    position:absolute;
+    top: -15%;
+    left: 13%;
+}
+
+.hexagon span, .hexagon_big span{
+    display: block;
+    width: 172px;
+    line-height: 50px;
+    margin: 35px auto;
+    text-align: center;
+    font-size: 1.56rem;
+    color: #666666;
+}
+.hexagon_big h4, .hexagon_big span{
+    width: 243px;
+    top: 0;
+
+}
+.hexagon_big span{
+    margin: 80px auto;
+}
+/*第四个六边形*/
+.hexagon_big {
+    width: 335px;
+    height: 195px;
+    border-left: 2px solid #e1e1e1;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.hexagon_big::before{
+    content: "";
+    position: absolute;
+    right: -2px;
+    width: 2px;
+    height: 195px;
+    background-image: linear-gradient(to right, #1b3363, #949fb3);
+}
+.hexagon_big .hexagon_top {
+    position: absolute;
+    top: -94px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 168px solid transparent;
+    border-right: 168px solid transparent;
+    border-bottom: 96px solid white;
+}
+.hexagon_big .hexagon_top::after{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -168px;
+    z-index: -1;
+    border-left: 168px solid transparent;
+    border-right: 168px solid transparent;
+    border-bottom: 96px solid #0943a4;
+}
+.hexagon_big .hexagon_bottom {
+    position: absolute;
+    bottom: -96px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 168px solid transparent;
+    border-right: 168px solid transparent;
+    border-top: 96px solid white;
+}
+.hexagon_big .hexagon_bottom::after{
+    content: "";
+    position: absolute;
+    top: -96px;
+    left: -170px;
+    z-index: -1;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-top: 98px solid #cfcfd1;
+
+}
+
+
+
+.hexagon_bigger {
+    width: 358px;
+    height: 205px;
+    border-left: 2px solid #e1e1e1;
+    position: relative;
+}
+
+.hexagon_bigger::before{
+    content: "";
+    position: absolute;
+    right: -2px;
+    width: 2px;
+    height: 205px;
+    background-image: linear-gradient(to right, #1b3363, #949fb3);
+}
+.hexagon_bigger .hexagon_top {
+    position: absolute;
+    top: -105px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 179px solid transparent;
+    border-right: 179px solid transparent;
+    border-bottom: 106px solid white;
+}
+.hexagon_bigger .hexagon_top::after{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -179px;
+    z-index: -1;
+    border-left: 181px solid transparent;
+    border-right: 181px solid transparent;
+    border-bottom: 106px solid #53617c;
+}
+.hexagon_bigger .hexagon_bottom {
+    position: absolute;
+    bottom: -105px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 179px solid transparent;
+    border-right: 179px solid transparent;
+    border-top: 106px solid white;
+}
+.hexagon_bigger .hexagon_bottom::after{
+    content: "";
+    position: absolute;
+    top: -105px;
+    left: -179px;
+    z-index: -1;
+    border-left: 179px solid transparent;
+    border-right: 179px solid transparent;
+    border-top: 106px solid #cfcfd1;
+}
+
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #f4f3f8;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+    overflow: hidden;
+}
+.clearfix {
+    zoom: 1;/* for ie6 & ie7 */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./images/base_20190328.css">
+    <link rel="stylesheet" href="./images/style_20190328.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <a href="#" class="a_link"></a>
+            <h3></h3>
+            <ul>
+                <li><a href="#">河北省水利厅加快推进农村饮水安全巩固提升工作</a></li>
+                <li><a href="#">江西省政府副省长、省河长办公室主任胡强参加“江西省河湖保护活动周”启动仪式</a></li>
+                <li><a href="#">宁波市六方面着手打好节水攻坚战</a></li>
+                <li><a href="#">江西省水利厅启动取水工程（设施）核查登记工作</a></li>
+                <li><a href="#">湖南省水利厅和各地市积极开展“世界水日”“中国水周”宣传活动</a></li>
+                <li><a href="#">江西省水利厅副厅长吴义泉指导丰城市中小河流治理项目建设</a></li>
+                <li><a href="#">湖北召开2019年全省水利工作会议</a></li>
+                <li><a href="#">湖北省水利厅召开脱贫攻坚专项巡视反馈意见整改工作推进会</a></li>
+                <li><a href="#">湖北省2019年水文工作会议在武汉市召开</a></li>
+                <li><a href="#">湖南省水利厅部署高效节水灌溉工程竣工验收工作</a></li>
+                <li><a href="#">湖南省水利厅明确2019年水利精准扶贫目标任务</a></li>
+                <li><a href="#">湖南省水利厅部署打击河道非法采砂工作</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    var $wrapper = document.querySelector(".wrapper");
+    var $body = document.querySelector("body");
+    $wrapper.style.marginLeft = ($body.offsetWidth-$wrapper.offsetWidth)/2+"px";
+    console.log($wrapper.clientWidth, $wrapper.scrollWidth, )
+</script>
+</html>

@@ -1,0 +1,253 @@
+.header{
+    background: url("logo.png") center bottom no-repeat;
+}
+.header .top{
+    border: 1px solid #cdcdcd;
+    background-image: linear-gradient(to bottom, #e0f3fd, #ffffff);
+}
+.header .top .search{
+    float: right;
+}
+.header .nav{
+    padding-top: 100px;
+    padding-left: 500px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 2.8;
+    color: #fff;
+}
+.header .nav li{
+    display: table-cell;
+    width: 1%;
+    text-align: center;
+}
+.header .nav li a:hover{
+    text-shadow: 0px 0px 5px skyblue,0px 0px 5px whitesmoke;
+}
+
+.banner-container {
+    width: 100%;
+    height: 640px;
+    position: relative;
+}
+.banner-container .swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.banner-container .swiper-slide{
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prev, .next{
+    position: absolute;
+    width: 45px;
+    height: 140px;
+    top: 50%;
+    right: 50%;
+    background-image: url("../images/next.png");
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: -70px;
+    margin-right: -640px;
+    z-index: 1;
+}
+.prev{
+    left: 50%;
+    margin-left: -640px;
+    background-image: url("../images/prev.png");
+}
+.m1-news{
+    position: absolute;
+    width: 1180px;
+    height: 230px;
+    left: 50%;
+    bottom: 12px;
+    margin-left: -590px;
+    padding: 30px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+    box-sizing: border-box;
+}
+.m1-news .swiper-container{
+    margin-top: 20px;
+}
+.m1-news li{
+    float: left;
+    width: 50%;
+    padding: 0 25px;
+    box-sizing: border-box;
+    line-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.m1-news li span{
+    float: right;
+}
+.m1-news .tabs a{
+    margin-left: 30px;
+    display: inline-block;
+    width: 120px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #dddede;
+    border-radius: 5px;
+}
+.m1-news .tabs a.active{
+    color: #fff;
+    background-color: #014c93;
+}
+.list-item{
+    margin: 30px 30px 0 0;
+    padding: 20px;
+    float: left;
+    width: 406px;
+    border: 1px solid #bcbdbd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.list-item h3{
+    font-size: 20px;
+    color: #023373;
+}
+.list-item li{
+    line-height: 42px;
+    text-indent: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+.list-item li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.m1 .list-item:nth-child(3), .m1 .list-item:nth-child(6), .m1 .list-item:nth-child(10){
+    margin-right: 0px;
+}
+
+.figures-item{
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    padding: 0 36px;
+    box-sizing: border-box;
+}
+.figures-item .figure{
+    margin-right: 120px;
+    float: left;
+    width: 143px;
+    height: 143px;
+    border: 1px solid #6ca6d3;
+    border-radius: 50%;
+    background-image: url("wave.png");
+    background-position: 0px 45px;
+    background-repeat: no-repeat;
+    animation: myfirst linear infinite 20s;
+}
+.figure-title a{
+    margin-right: 120px;
+    float: left;
+    width: 145px;
+    line-height: 48px;
+    font-size: 18px;
+    color: #023373;
+    text-align: center;
+    text-shadow: 0 0 2px white, 0px 0px 4px #023373;
+    position: relative;
+    behavior: url(ie-css3.htc);
+}
+.figure-title a::after{
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 60px;
+    width: 120px;
+    height: 0px;
+    transition: all 0.5s;
+}
+.figure-title a.f1_t::after, .figure-title a.f2_t::after, .figure-title a.f3_t::after, .figure-title a.f4_t::after, .figure-title a.f5_t::after{
+    top: 60px;
+    background-position: center bottom;
+}
+.figure-title a.f1_t:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_1.png");
+    transition: all 0.5s;
+}
+.figure-title a.f2_t:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_2.png");
+    transition: all 0.5s;
+}
+.figure-title a.f3_t:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_3.png");
+    transition: all 0.5s;
+}
+.figure-title a.f4_t:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_4.png");
+    transition: all 0.5s;
+}
+.figure-title a.f5_t:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_5.png");
+    transition: all 0.5s;
+}
+.figure-title a.f1_b:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_6.png");
+    transition: all 0.5s;
+}
+.figure-title a.f2_b:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_7.png");
+    transition: all 0.5s;
+}
+.figure-title a.f3_b:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_8.png");
+    transition: all 0.5s;
+}
+.figure-title a.f4_b:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_9.png");
+    transition: all 0.5s;
+}
+.figure-title a.f5_b:hover::after{
+    height: 120px;
+    background-image: url("../images/logo_10.png");
+    transition: all 0.5s;
+}
+.figure-title a:hover{
+    color: #037cd9;
+    text-shadow: 0 0 2px white, 0px 0px 4px #037cd9;
+}
+.figure-title a.f1_t{
+
+}
+.figures-item .figure:last-child, .figure-title a:last-child{
+    margin-right: 0px;
+}
+
+.login-link img{
+    display: inline-block;
+}
+
+@keyframes myfirst
+{
+    from {background-position: -1600px 45px;}
+    to {background-position: 0px 45px;}
+}
+
