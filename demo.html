@@ -3,11 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        .controls a{
+            padding: 10px;
+            transition: 1s all;
+        }
+        .controls a.active, .controls a.on{
+            color: #fff;
+            background-color: #0d519c;
+            transition: 1s all;
+        }
+        ul{
+            position: relative;
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .views{
+            width: 200px;
+        }
+        .views li{
+            width: 200px;
+            height: 100px;
+            opacity: 0;
+            display: none;
+            transition: 1s all;
+            background-color: #00B7FF;
+        }
+        .views li.active, .views li.on{
+            display: block;
+            opacity: 1;
+            transition: 1s all;
+        }
+        .marquee{
+            width: 200px;
+            overflow: hidden;
+            background-color: #00B7FF;
+        }
+        .marquee li{
+            color: #fff;
+            white-space: nowrap;
+            float: left;
+            min-width: 11%;
+        }
+        .marquee ul{
+            min-width: 1000%;
+        }
+        .marquee-top{
+            width: 60px;
+            height: 200px;
+            overflow: hidden;
+            background-color: #00B7FF;
+        }
+        .marquee-top ul{
+            height: 1000%;
+        }
+        .marquee-top li{
+            color: #fff;
+            min-height: 11%;
+        }
+    </style>
 </head>
 <body>
-argument与剩余参数
+    <div class="tabs">
+        <h3 class="controls" id="controls">
+            <a class="active test" href="#">选项一</a>
+            <a class="test" href="#">选项二</a>
+            <a class="test" href="#">选项三</a>
+        </h3>
+        <div class="views" id="views">
+            <ul>
+                <li class="active test">选项一</li>
+                <li class="test">选项二</li>
+                <li class="test">选项三</li>
+            </ul>
+        </div>
+
+        <h3 class="controls" id="controls1">
+            <a class="on test" href="#">选项一1</a>
+            <a class="test" href="#">选项二1</a>
+            <a class="test" href="#">选项三1</a>
+        </h3>
+        <div class="views" id="views1">
+            <ul>
+                <li class="on test">选项一1</li>
+                <li class="test">选项二1</li>
+                <li class="test">选项三1</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="marquee" id="marquee">
+        <ul>
+            <li>站在树梢上</li>
+            <li>站在树梢上</li>
+        </ul>
+    </div>
+<br>
+    <div class="marquee" id="marquee1">
+        <ul>
+            <li>两个忠臣也不明白崇祯。</li>
+            <li>两个忠臣也不明白崇祯。</li>
+        </ul>
+    </div>
+    <br>
+    <div class="marquee-top" id="marquee2">
+        <ul>
+            <li>两个忠臣也不明白崇祯。</li>
+            <li>两个忠臣也不明白崇祯。</li>
+        </ul>
+    </div>
+    <br>
+    <div class="marquee-top" id="marquee3">
+        <ul>
+            <li>两个忠臣也不明白崇祯。</li>
+            <li>两个忠臣也不明白崇祯。</li>
+        </ul>
+    </div>
 </body>
 <script>
+    function Marquee(Obj) {
+        this.marquee = Obj.marquee;
+        this.direction = Obj.direction || 'left';
+        this.speed = Obj.speed || 13;
+        this.marquee_value = 0;
 
+        this.init();
+    }
+    Marquee.prototype.init = function () {
+        var mySetInterval = setInterval(this.openTask(),this.speed);
+        var that = this;
+        this.marquee.parentNode.onmouseenter = function () {
+            clearInterval(mySetInterval)
+        };
+        this.marquee.parentNode.onmouseleave = function () {
+            mySetInterval = setInterval(that.openTask(),that.speed)
+        };
+    };
+
+    Marquee.prototype.openTask = function () {
+        var that = this;
+        switch (this.direction) {
+            case 'right':
+                return function () {
+                    if(that.marquee_value <= 0){
+                        that.marquee_value++;
+                    }
+                    else{
+                        that.marquee_value -= that.marquee.offsetWidth;
+                    }
+                    that.marquee.parentNode.style.marginLeft = that.marquee_value +"px";
+                };
+            case 'top':
+                return function () {
+                    if(0 <= that.marquee.offsetHeight+that.marquee_value){
+                        that.marquee_value--;
+                    }
+                    else{
+                        that.marquee_value += that.marquee.offsetHeight;
+                    }
+                    that.marquee.parentNode.style.marginTop = that.marquee_value +"px";
+                };
+            case 'bottom':
+                return function () {
+                    if(that.marquee_value <= 0){
+                        that.marquee_value++;
+                    }
+                    else{
+                        that.marquee_value -= that.marquee.offsetHeight;
+                    }
+                    that.marquee.parentNode.style.marginTop = that.marquee_value +"px";
+                };
+            default: return function () {
+                if(0 <= that.marquee.offsetWidth + that.marquee_value){
+                    that.marquee_value--;
+                }
+                else{
+                    that.marquee_value += that.marquee.offsetWidth;
+                }
+                that.marquee.parentNode.style.marginLeft = that.marquee_value +"px";
+            };
+        }
+    };
+    new Marquee({marquee: document.querySelector('#marquee li'),direction: 'right'});
+    new Marquee({marquee: document.querySelector('#marquee1 li'), speed: 20});
+    new Marquee({marquee: document.querySelector('#marquee2 li'), speed: 20,direction: 'top'});
+    new Marquee({marquee: document.querySelector('#marquee3 li'), speed: 20,direction: 'bottom'});
+
+
+
+    function Tabs(Obj) {
+        this.controls_list = Obj.controls_list;
+        this.views_list = Obj.views_list;
+        this.active_class = Obj.active_class || 'active';
+        this.tabs_type = Obj.tabs_type;
+        this.index = 0;
+        this.init();
+    }
+    Tabs.prototype.init = function () {
+        var that = this;
+
+        for(var i = 0; i<this.controls_list.length;i++){
+            if(this.tabs_type === 'left'){
+                //console.log(that.controls_list[i].style)
+            }
+            (function(j){
+                that.controls_list[j].onclick = function () {
+                    if(that.index === j) return;
+                    that.changeClass(j, that.controls_list);
+                    that.changeClass(j, that.views_list);
+                    that.index = j;
+                }
+            })(i);
+        }
+    };
+    Tabs.prototype.changeClass = function (curr, obj) {
+        if(this.index === curr)return;
+        var classNameTemp = obj[this.index].className;
+        obj[curr].className = classNameTemp;
+        classNameTemp = classNameTemp.replace(this.active_class ,'');
+        console.log(this.active_class);
+        obj[this.index].className = classNameTemp;
+    };
+    new Tabs({controls_list: document.querySelectorAll('#controls a'), views_list: document.querySelectorAll('#views li'), tabs_type: "left"});
+    new Tabs({controls_list: document.querySelectorAll('#controls1 a'), views_list: document.querySelectorAll('#views1 li'), active_class: "on"});
 </script>
 </html>
