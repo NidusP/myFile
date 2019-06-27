@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: 16px "Microsoft YaHei, PingFang SC Regular";
+}
+h1, h2, h3, h4, h5{
+    margin: 0;
+    font-weight: normal;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    border: 0;
+}
+.mr{
+    margin-right: 30px;
+}
+.mt{
+    margin-top: 20px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper{
+    background: url("bg.png") top center no-repeat #fff;
+}

@@ -1,0 +1,82 @@
+body, p, h1, h2, h3, h4, h5, h6, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 2;
+    font-family: PingFangSC-Regular, "Microsoft YaHei";
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.25s;
+}
+a:hover{
+    transition: all 0.25s;
+}
+img{
+    border: none;
+}
+.mr{
+    margin-right: 26px;
+}
+.mb{
+    margin-bottom: 16px;
+}
+.layout{
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrapper{
+    background: url("bg.png") top center/ 100% auto no-repeat;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.mt{
+    margin-top: 25px;
+}
+.sina, .swx {
+    width: 26px;
+    height: 26px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+.sina {
+    background: url(sina.png) no-repeat;
+}
+.swx {
+    background: url(wchart.png) no-repeat;
+}
+.wx2wm{
+    position:absolute;
+    top:-10px;
+    left:-40px;
+    border:1px solid #d7d7d7;
+    width:240px;
+    height:300px;
+    background:#fff;
+    padding: 10px 10px 0 10px;
+    font-size:12px;
+    line-height:22px;
+    display:none;
+}
+.wx2wm p{
+    margin: 0;
+}

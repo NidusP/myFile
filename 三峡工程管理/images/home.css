@@ -1,0 +1,107 @@
+.m_1 .news{
+    margin-right: 28px;
+    width: 712px;
+    height: 485px;
+}
+.m_1 .news .swiper-slide{
+    position: relative;
+    background-color: #00B7FF!important;
+}
+.m_1 .news .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 2.5;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-indent: 1.5rem;
+}
+.pagination{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.swiper-pagination-switch{
+    float: left;
+    margin-left: 15px;
+    width: 45px;
+    height: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.swiper-pagination-switch.swiper-active-switch{
+    background-color: #43a4ff;
+}
+
+.news-items .title{
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px #9e9e9e;
+    letter-spacing: 0.2em;
+    position: relative;
+}
+.news-items .title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #9ab1d0;
+    box-shadow: 0 -2px 3px 3px #d9ecfc;
+}
+.news-items .title span{
+    display: inline-block;
+    padding-left: 45px;
+    position: relative;
+}
+.news-items .title span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #98cdfe;
+    z-index: 10;
+}
+.news-sxyw{
+    width: 460px;
+}
+.news-sxyw .title{
+    padding-left: 42px;
+    font-size: 26px;
+    font-weight: bold;
+    background: url("items1.png") left center no-repeat;
+}
+.news-ghgl, .news-yxgl, .news-xmgl, .news-jxgl{
+    width: 575px;
+}
+.news-ghgl, .news-xmgl{
+    margin-right: 50px;
+}
+.news-ghgl .title, .news-yxgl .title, .news-xmgl .title, .news-jxgl .title{
+    font-size: 22px;
+    line-height: 2.8;
+    color: #023373;
+    background: url("items2.png") left center no-repeat;
+}
+.news-yxgl .title{
+    background: url("items3.png") left center no-repeat;
+}
+.news-xmgl .title{
+    background: url("items4.png") left center no-repeat;
+}
+.news-jxgl .title{
+    background: url("items5.png") left center no-repeat;
+}
+.banner.swiper-container{
+    width: 100%;
+    height: 126px;
+}
+.banner .swiper-pagination-switch{
+    background-color: #414141;
+}
+.banner .swiper-pagination-switch.swiper-active-switch{
+    background-color: #fff;
+}

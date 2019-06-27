@@ -1,0 +1,53 @@
+@charset "utf-8";
+body, p, h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font: 16px PingFangSC-Regular, "Microsoft YaHei";
+    line-height: 1.6;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+a:hover{
+    transition: all 0.3s;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper{
+    background: #f0f0f0 url("ray.png") center bottom/100% auto no-repeat;
+    overflow: hidden;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.mb26{
+    margin-bottom: 26px;
+}

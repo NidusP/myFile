@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>carousel</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            border: 0;
+        }
+
+        .all {
+            width: 500px;
+            height: 200px;
+            padding: 7px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .screen {
+            width: 500px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .screen li {
+            width: 500px;
+            height: 200px;
+            overflow: hidden;
+            float: left;
+        }
+
+        .screen ul {
+            position: absolute;
+            left: 0;
+            top: 0px;
+            width: 3000px;
+        }
+
+        .all ol {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        .all ol li {
+            float: left;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border: 1px solid #ccc;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .all ol li.active {
+            background: yellow;
+        }
+
+        #arr {
+            display: block;
+        }
+
+        #arr span {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            margin-top: -20px;
+            background: #000;
+            cursor: pointer;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            font-family: '黑体';
+            font-size: 30px;
+            color: #fff;
+            opacity: 0.3;
+            border: 1px solid #fff;
+        }
+
+        #arr #right {
+            right: 5px;
+            left: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="all " id='box'>
+        <div class="screen carousel-container">
+            <ul class="carousel-wrapper">
+                <li class="carousel-slide" style="background-color: yellowgreen;">1</li>
+                <li class="carousel-slide" style="background-color: pink;">2</li>
+                <li class="carousel-slide" style="background-color: skyblue;">3</li>
+                <li class="carousel-slide" style="background-color: greenyellow;">4</li>
+                <li class="carousel-slide" style="background-color: plum;">5</li>
+            </ul>
+            <ol>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ol>
+            <div id="arr"><span id="left">&lt;</span><span id="right">&gt;</span></div>
+        </div>
+    </div>
+</body>
+<script>
+    // 1.获取页面对应的元素
+    var screen = document.querySelector('.screen')
+    var box = document.querySelector('#box')
+    var ul = document.querySelector('ul')
+    var ol = document.querySelector('ol')
+    var li = document.querySelectorAll('li')
+    var box = document.querySelector('#box')
+    var arr = document.querySelector('#arr')
+    var right = document.querySelector('#right')
+    var index = 0
+
+    var Carousel;
+    Carousel = (function () {
+        function Carousel(Obj) {
+            this.carousel = Obj.carousel;
+            this.container = Obj.container;
+            this.pagination = Obj.pagination;
+            this.speed = Obj.speed || 300;
+            this.autoplay = (Obj.autoplay || 2500) + this.speed;
+            this.distance = 0;
+            this.initTime = null;
+            this.animationTime = null;
+            this.index = 0;
+            this.init();
+        }
+
+        Carousel.prototype = {
+            init: function () {
+                this.distance = this.carousel.children[0].offsetWidth;
+                this.carousel.appendChild(this.carousel.children[0].cloneNode(true))
+                var _this = this;
+                this.initTime = setInterval(this.next().bind(this), this.autoplay)
+                this.container.addEventListener('mouseenter', function () {
+                    clearInterval(_this.initTime)
+                })
+                this.container.addEventListener('mouseleave', function () {
+                    _this.initTime = setInterval(_this.next().bind(_this), _this.autoplay)
+                })
+                this.updateIndex();
+                ol.addEventListener('click', function () {
+                    _this.index = event.target.index
+                    _this.animation(-event.target.index * _this.distance, Math.abs(-event.target.index * _this.distance - _this.carousel.offsetLeft) / (_this.speed / 20))
+                    _this.updateIndex()
+                });
+                this.container.onmousedown = function (event) {
+                    if(event.target.className !== "carousel-slide"){ return;}
+                    if (_this.index === 5) {
+                        _this.index = 0;
+                        _this.carousel.style.left = -_this.index * _this.distance + 'px';
+                    }
+                    if (_this.index === 0) {
+                        _this.index = 5;
+                        _this.carousel.style.left = -_this.index * _this.distance + 'px';
+                    }
+                    console.log(_this.index, event.target, this.className)
+                    var downClient = event.clientX;
+                    var curr = _this.carousel.offsetLeft;
+                    _this.container.onmousemove = function (event) {
+                        _this.carousel.style.left = (curr - downClient + event.clientX) + "px";
+                    }
+                    document.onmouseup = function (event) {
+                        var upClient = event.clientX;
+                        upClient - downClient > 0 ? _this.index-- : _this.index++;
+                        console.log(_this.index)
+                        _this.container.onmousemove = null;
+                        _this.animation(-_this.index * 500, 30);
+                        this.onmouseup = null;
+                    }
+                }
+            },
+            updateIndex: function () {
+                var nodeCounts = this.pagination.children.length
+                for (var i = 0; i < nodeCounts; i++) {
+                    this.pagination.children[i].index = i;
+                    if (i === this.index || (this.index - nodeCounts) === i) {
+                        this.pagination.children[i].className = "active";
+                    } else {
+                        this.pagination.children[i].className = "";
+                    }
+                }
+            },
+            next: function () {
+                return function () {
+                    if (this.index === 5) {
+                        this.index = 0;
+                        this.carousel.style.left = -this.index * this.distance + 'px';
+                    }
+                    this.index++;
+                    this.animation(-this.index * this.distance, this.distance / (this.speed / 20));
+                    this.updateIndex()
+                    console.log(this.index)
+                }
+            },
+            prev: function () {
+                return function () {
+                    if (this.index === 0) {
+                        this.index = 5;
+                        this.carousel.style.left = -this.index * this.distance + 'px';
+                    }
+                    this.index--;
+                    this.animation(-this.index * this.distance, this.distance / (this.speed / 20));
+                    this.updateIndex();
+                }
+            },
+            animation: function (target, speed) {
+                console.log(typeof target, target)
+                if ((typeof target) !== 'number') {
+                    throw "error";
+                    return false;
+                } else {
+                    if (this.animationTime) {
+                        clearInterval(this.animationTime)
+                    }
+                    var _this = this;
+                    this.animationTime = setInterval(function () {
+                        var curr = _this.carousel.offsetLeft;
+                        if (curr > target) {
+                            curr -= speed;
+                            if (curr < target) {
+                                _this.carousel.style.left = target + 'px';
+                                clearInterval(_this.animationTime);
+                            } else {
+                                _this.carousel.style.left = curr + 'px';
+                            }
+                        } else {
+                            curr += speed;
+                            if (curr > target) {
+                                _this.carousel.style.left = target + 'px';
+                                clearInterval(_this.animationTime);
+                            } else {
+                                _this.carousel.style.left = curr + 'px';
+                            }
+                        }
+                    }, 20)
+                }
+            }
+        }
+        return Carousel;
+    })();
+
+    var myCarousel = new Carousel({ container: box,carousel: ul, pagination: ol});
+    right.onclick = myCarousel.next(event).bind(myCarousel);
+    left.onclick = myCarousel.prev().bind(myCarousel);
+    // screen.onmousedown = function (event) {
+    //     console.log("onmousedown");
+    //
+    //     var currX = event.clientX;
+    //     var currL = ul.offsetLeft
+    //     screen.onmousemove = function(event) {
+    //         console.log(currX - event.clientX)
+    //         ul.style.left = (currL - currX + event.clientX) + "px";
+    //     }
+    //     document.onmouseup = function (event) {
+    //         console.log("onmouseup", currX - event.clientX);
+    //
+    //         screen.onmousemove = null;
+    //     }
+    // }
+
+    // screen.ontouchstart = function (event) {
+    //     console.log("ontouchstart");
+    //     event.stopPropagation();
+    //     event.preventDefault();
+    // }
+</script>
+</html>

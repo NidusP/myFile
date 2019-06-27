@@ -1,0 +1,155 @@
+@charset "utf-8";
+.header{
+    margin-bottom: 26px;
+}
+.header .emblem{
+    padding-top: 15px;
+}
+.header .logo{
+    background: url("banner_top.jpg") center bottom/cover no-repeat;
+    height: 374px;
+    text-align: center;
+}
+.header .logo .img{
+    margin-top: 80px;
+    max-width: 100%;
+}
+.main .container{
+    padding: 8px 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.main .title{
+    color: #fff;
+    text-indent: 25px;
+    line-height: 1.85;
+    letter-spacing: 5px;
+    background-color: #ec3307;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    outline: 1px solid #ec3307;
+}
+.main .content{
+    padding: 15px 20px 20px;
+}
+.main .content ul{
+    width: 530px;
+}
+.main .content li{
+    padding: 6px;
+    border-bottom: 1px #cbcbcb dashed;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .content .date{
+    display: block;
+    font-size: 10px;
+    color: #cd9a9a;
+}
+.main .more{
+    margin-top: 6px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #3e3e3e;
+    text-indent: 0;
+}
+.m1 .container{
+    padding: 0;
+    height: 360px;
+    background-color: transparent;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.m1_left{
+    width: 625px;
+    height: 360px;
+}
+.m1_right{
+    width: 552px;
+    height: 360px;
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+}
+.m1-title{
+    font-size: 30px;
+    line-height: 1.8;
+}
+.m1_right .abstract{
+    margin: 40px 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.m1_right .date{
+    width: 90px;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    color: #fff;
+    background-color: #ec3307;
+    border-radius: 25px;
+    user-select: none;
+}
+.m2{
+    padding-top: 78px;
+    position: relative;
+    z-index: 1;
+}
+.m2::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -601px;
+    width: 1397px;
+    height: 381px;
+    background-image: url("flag.png");
+    z-index: -1;
+}
+
+.footer{
+    font-size: 12px;
+    color: #fff;
+    line-height: 3;
+    text-align: center;
+    background-color: #d13c2c;
+}
+.list .content ul{
+    width: auto;
+}
+.list .content li{
+    padding: 0 10px;
+    line-height: 3;
+}
+.list .content .date{
+    float: right;
+    margin-top: 12px;
+}
+.current{
+    display: block;
+    margin: 0px 22px 10px;
+    font-size: 14px;
+}
+.details-title{
+    font-size: 38px;
+    color: #cf0e0e;
+    text-align: center;
+}
+.desc{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid #945c1b;
+}
+.details-article p{
+    text-indent: 2em;
+    font-size: 20px;
+    font-family: SimSun, "宋体";
+    line-height: 1.8;
+}

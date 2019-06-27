@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="./images/style.css">
     <!--[if IE]>
     <style>
-        .wrapper{
-            behavior: url(./images/ie-css3.htc);
+        ..header .nav li a:hover{
+            behavior: url("./images/ie-css3.htc");
         }
     </style>
     <![endif]-->
@@ -23,10 +23,10 @@
         <div class="header">
             <div class="top">
                 <div class="layout">
-                    <span class="date">2019年3月1日 00：00 星期五</span>
+                    <span class="date" id="date">2019年3月1日 00：00 星期五</span>
                     <div class="search">
                         <form action="" method="post">
-                            <input type="text" placeholder="请输入关键词搜索">
+                            <input class="input" type="text" placeholder="请输入关键词搜索">
                         </form>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
             </div>
             <div class="m1 layout clearfix">
                 <div class="list-item">
-                    <h3><a href="#">党建与文化</a><span>>></span></h3>
+                    <h3>党建与文化<a href="#"></a></h3>
                     <ul>
                         <li><a href="#">标题标题标题标题标题标题标题标题标题标题</a></li>
                         <li><a href="#">标题标题标题标题标题标题标题标题标题标题</a></li>
@@ -130,11 +130,11 @@
                     </ul>
                 </div>
                 <div class="list-item">
-                    <h3>系统登录<a href="#"></a></h3>
+                    <h3 class="mb">系统登录<a href="#"></a></h3>
                     <div class="login-link">
-                        <a href="#"><img src="images/login1.png"></a>
-                        <a href="#"><img src="images/login2.png"></a>
-                        <a href="#"><img src="images/login3.png"></a>
+                        <a href="#" class="mr mb"><img src="images/login1.png"></a>
+                        <a href="#" class="mb"><img src="images/login2.png"></a>
+                        <a href="#" class="mr"><img src="images/login3.png"></a>
                         <a href="#"><img src="images/login4.png"></a>
                     </div>
                 </div>
@@ -213,16 +213,27 @@
             <p class="copyright">京ICP备05071784号 | 中华人民共和国水利部 版权所有</p>
         </div>
     </div>
-
-
-
-
 </body>
 <script src="images/jquery1.12.4.min.js"></script>
 <script src="images/idangerous.swiper2.7.6.min.js"></script>
-<script src="images/idangerous.swiper.progress.js"></script>
 <script type="text/javascript">
     $(function(){
+        var weeks = ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+        function getTime() {
+            var myDate = new Date();
+            var year = myDate.getFullYear();//获取当前年
+            var mon = myDate.getMonth()+1;//获取当前月
+            var date = myDate.getDate();//获取当前日
+            var dateH = myDate.getHours();
+            var dateM = myDate.getMinutes();
+            var dateS = myDate.getSeconds();
+            dateS = dateS > 9? dateS: "0"+dateS;
+            var week = myDate.getDay();
+            $("#date").html(year+"年"+mon+"月"+date+"日 "+dateH+":"+dateM+":"+dateS+" "+weeks[week]);
+        }
+        setInterval(getTime, 1000);
+
+
         var bannerSwiper = new Swiper('.banner-container > .swiper-container', {
             loop: true,
             autoplay: 3000,
@@ -234,7 +245,6 @@
         $(".next").on('click',  function (e) {
             bannerSwiper.swipeNext();
         });
-
 
         var mySwiper = new Swiper('.m1-news .swiper-container',{
             speed:500,

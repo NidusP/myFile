@@ -112,8 +112,15 @@
 .list-item h3{
     font-size: 20px;
     color: #023373;
+    user-select: none;
 }
-.list-item li{
+.list-item h3  a{
+    float: right;
+    width: 20px;
+    height: 40px;
+    background: url("more.png") center center no-repeat;
+}
+.list-item li,.list li{
     line-height: 42px;
     text-indent: 1em;
     overflow: hidden;
@@ -121,7 +128,7 @@
     white-space: nowrap;
     position: relative;
 }
-.list-item li::before{
+.list-item li::before,.list li::before{
     content: "";
     position: absolute;
     left: 0;
@@ -161,6 +168,7 @@
     width: 145px;
     line-height: 48px;
     font-size: 18px;
+    letter-spacing: -1px;
     color: #023373;
     text-align: center;
     text-shadow: 0 0 2px white, 0px 0px 4px #023373;
@@ -241,8 +249,15 @@
     margin-right: 0px;
 }
 
-.login-link img{
+.login-link > a{
     display: inline-block;
+}
+.login-link > a:hover{
+    box-shadow: 0 0 10px 2px #333;
+}
+.login-link{
+    text-align: center;
+    font-size: 0px;
 }
 
 @keyframes myfirst
@@ -251,3 +266,74 @@
     to {background-position: 0px 45px;}
 }
 
+.list li{
+    line-height: 2;
+}
+.fy {
+    height: 30px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 14px;
+}
+.fy .pages a {
+    color: #333;
+    padding: 3px 8px;
+    border: 1px solid #d7d7d7;
+    margin-right: 5px;
+    *display:inline-block;
+}
+.fy .pages a.on, .fy .pages a:hover {
+    background: #257295;
+    color: #fff;
+}
+.fy a {
+    color: #333;
+    padding: 3px 8px;
+    text-decoration: none;
+}
+.fy a:hover {
+    color: #257295;
+}
+.fy span, .fy button {
+    margin: 0 3px;
+}
+.fy button {
+    background: #257295;
+    border: 1px solid #d7d7d7;
+    padding: 3px 12px;
+    *padding:2px 12px 0;
+    _padding: 6px 12px 0;
+    color: #fff;
+}
+.fy input {
+    width: 36px;
+    padding: 3px 0;
+    border: 1px solid #333;
+    text-indent: 4px;
+    margin: 0 4px;
+}
+
+.current{
+    font-size: 16px;
+    line-height: 48px;
+    color: #6e6d6d;
+}
+.article-detail{
+    padding: 40px 80px;
+    background-color: #fff;
+    border: 1px solid #babbbb;
+}
+.detail-title{
+    color: #023373;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+.detail-desc{
+    padding: 20px;
+    color: #6e6d6d;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border-bottom: 1px solid #bbbbbb;
+}

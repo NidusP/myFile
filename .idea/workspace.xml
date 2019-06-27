@@ -1,8 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29811b8-7574-4188-b88b-522c65a794ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/河湖管理司.zip" beforeDir="false" />
+    <list default="true" id="a29811b8-7574-4188-b88b-522c65a794ff" name="Default" comment="factory">
+      <change afterPath="$PROJECT_DIR$/bistu-search/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bistu-search/image/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bistu-search/image/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bistu-search/image/paw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bistu-search/image/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/marquee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/idangerous.swiper2.7.6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/idangerous.swiper2.7.6.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/jquery1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/nav_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/nav_shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/wchart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/三峡工程管理/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/banner_top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/emblem_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/emblem_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/idangerous.swiper2.7.6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/idangerous.swiper2.7.6.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/jquery1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/ray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/images/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/中央团校/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/dzjg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/idangerous.swiper2.7.6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/idangerous.swiper2.7.6.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/jquery1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/tabs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/tabs_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/triangle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/w1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/images/zc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程建设/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/2018guohui03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/dzjg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/link-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/link-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/magnifying.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/zc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利工程运行管理/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利部水资源管理中心/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/水利部水资源管理中心/photoswiper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/灌区水效领跑者/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/灌区水效领跑者/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/灌区水效领跑者/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/images/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/水利部水资源管理中心/images/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/images/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/水利部水资源管理中心/images/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/水利部水资源管理中心/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/河湖管理司/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/河湖管理司/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/河湖管理司/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/河湖管理司/upload.zip" beforeDir="false" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,35 +109,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/carousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="50">
+              <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/style.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/河湖管理司/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="1311">
+              <caret line="213" column="64" selection-start-line="213" selection-start-column="64" selection-end-line="213" selection-end-column="64" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/base.css">
+        <entry file="file://$PROJECT_DIR$/中央团校/images/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+            <state relative-caret-position="836">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1843">
+              <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -58,6 +168,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
       </list>
@@ -65,36 +176,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.m1-news</find>
-      <find>.m1-news .tabs a</find>
-      <find>.prev, .next</find>
-      <find>m1 layout</find>
-      <find>.m1 .list-item:nth-child(3n)</find>
-      <find>.contact .c_middle</find>
-      <find>list-item</find>
-      <find>.contact .c_right</find>
-      <find>.m1-news li</find>
-      <find>.m1-news .tabs h3</find>
-      <find>m2</find>
-      <find>m1-news</find>
-      <find>00</find>
-      <find>.more</find>
-      <find>m3_l</find>
-      <find>.m3_r</find>
-      <find>.m3_item</find>
-      <find>m3_r</find>
-      <find>.mt0</find>
-      <find>tabs</find>
-      <find>.main .list-item h3</find>
-      <find>transition</find>
-      <find>.m1_2.swiper-container</find>
-      <find>m1_2</find>
-      <find>.header .nav li a:hover</find>
-      <find>.m3_l</find>
-      <find>.m2 li.m2_2:hover</find>
+      <find>distance</find>
+      <find>this.carousel</find>
+      <find>offsetLeft</find>
+      <find>-4</find>
+      <find>.m_1 .news</find>
+      <find>items-border</find>
+      <find>items-dot</find>
+      <find>text-shadow</find>
+      <find>dropdown</find>
+      <find>selected</find>
+      <find>display: none;</find>
+      <find>style=&quot;display: none;&quot;</find>
+      <find>news-xmgl</find>
+      <find>.footer .link</find>
+      <find>prev</find>
+      <find>link_</find>
+      <find>body</find>
+      <find>search</find>
+      <find>.header .logo</find>
+      <find>.news-items .title</find>
+      <find>.news-sxyw .title</find>
+      <find>规划管理</find>
+      <find>.items-dot li::before</find>
+      <find>item-list</find>
+      <find>.main .title</find>
+      <find>.main .container</find>
+      <find>.main .more</find>
+      <find>.m2</find>
       <find>.main</find>
-      <find>.figure-title a</find>
-      <find>.figures-item</find>
+      <find>mb10</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -107,20 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bistu-news/src/views/css/college.css" />
-        <option value="$PROJECT_DIR$/扶贫曝光/images/base.css" />
-        <option value="$PROJECT_DIR$/扶贫曝光/index.html" />
-        <option value="$PROJECT_DIR$/扶贫曝光/images/曝光专区.html" />
-        <option value="$PROJECT_DIR$/扶贫曝光/曝光专区.html" />
-        <option value="$PROJECT_DIR$/扶贫曝光/images/style.css" />
-        <option value="$PROJECT_DIR$/扶贫曝光/细览.html" />
-        <option value="$PROJECT_DIR$/扶贫曝光/曝光专区_20190328.html" />
-        <option value="$PROJECT_DIR$/扶贫曝光/细览_20190328.html" />
-        <option value="$PROJECT_DIR$/扶贫曝光/index_20190328.html" />
-        <option value="$PROJECT_DIR$/扶贫曝光/images/style_20190328.css" />
-        <option value="$PROJECT_DIR$/bistu-news/src/views/js/move.js" />
-        <option value="$PROJECT_DIR$/网信工作 会议/images/style_20190401.html" />
-        <option value="$PROJECT_DIR$/water/images/base.css" />
         <option value="$PROJECT_DIR$/网信工作 会议/detail.html" />
         <option value="$PROJECT_DIR$/网信工作 会议/images/base_20190401.css" />
         <option value="$PROJECT_DIR$/网信工作 会议/index.html" />
@@ -144,9 +241,34 @@
         <option value="$PROJECT_DIR$/河湖管理司/images/base.css" />
         <option value="$PROJECT_DIR$/河湖管理司/images/style.css" />
         <option value="$PROJECT_DIR$/河湖管理司/index.html" />
-        <option value="$PROJECT_DIR$/水利部水资源管理中心/index.html" />
         <option value="$PROJECT_DIR$/水利部水资源管理中心/images/base.css" />
+        <option value="$PROJECT_DIR$/水利部水资源管理中心/index.html" />
         <option value="$PROJECT_DIR$/水利部水资源管理中心/images/style.css" />
+        <option value="$PROJECT_DIR$/水利部水资源管理中心/upload.html" />
+        <option value="$PROJECT_DIR$/水利部水资源管理中心/photoswiper.html" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/demo/demo.html" />
+        <option value="$PROJECT_DIR$/demo/test.js" />
+        <option value="$PROJECT_DIR$/demo/marquee.html" />
+        <option value="$PROJECT_DIR$/水利工程建设/images/base.css" />
+        <option value="$PROJECT_DIR$/水利工程建设/images/style.css" />
+        <option value="$PROJECT_DIR$/水利工程建设/index.html" />
+        <option value="$PROJECT_DIR$/水利工程运行管理/images/base.css" />
+        <option value="$PROJECT_DIR$/水利工程运行管理/images/style.css" />
+        <option value="$PROJECT_DIR$/水利工程运行管理/index.html" />
+        <option value="$PROJECT_DIR$/灌区水效领跑者/index.html" />
+        <option value="$PROJECT_DIR$/三峡工程管理/index.html" />
+        <option value="$PROJECT_DIR$/三峡工程管理/images/home.css" />
+        <option value="$PROJECT_DIR$/三峡工程管理/list.html" />
+        <option value="$PROJECT_DIR$/三峡工程管理/detail.html" />
+        <option value="$PROJECT_DIR$/三峡工程管理/images/base.css" />
+        <option value="$PROJECT_DIR$/中央团校/images/base.css" />
+        <option value="$PROJECT_DIR$/中央团校/index.html" />
+        <option value="$PROJECT_DIR$/中央团校/list.html" />
+        <option value="$PROJECT_DIR$/中央团校/detail.html" />
+        <option value="$PROJECT_DIR$/中央团校/images/style.css" />
+        <option value="$PROJECT_DIR$/bistu-search/email.html" />
+        <option value="$PROJECT_DIR$/demo/carousel.html" />
       </list>
     </option>
   </component>
@@ -167,22 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="河湖管理司" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -204,6 +310,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="bistu-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="河湖管理司" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,19 +341,20 @@
     <property name="js-jscs-nodeInterpreter" value="E:\Node\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workfile\work\demo" />
       <recent name="D:\workfile\work\网信工作 会议\images" />
       <recent name="D:\workfile\work\扶贫曝光" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workfile\work\水利部水资源管理中心\images" />
-      <recent name="D:\workfile\work\河湖管理司\images" />
-      <recent name="D:\workfile\work\水利部水资源管理中心" />
-      <recent name="D:\workfile\work\专题-0404水文勘探专题\images" />
-      <recent name="D:\workfile\work\bistu-news\src\views\images" />
+      <recent name="D:\workfile\work\bistu-search\image" />
+      <recent name="D:\workfile\work\中央团校" />
+      <recent name="D:\workfile\work\中央团校\images" />
+      <recent name="D:\workfile\work\三峡工程管理\images" />
+      <recent name="D:\workfile\work\三峡工程管理" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,16 +420,52 @@
       <workItem from="1554946751631" duration="26200000" />
       <workItem from="1555057871729" duration="3058000" />
       <workItem from="1555205825992" duration="9199000" />
+      <workItem from="1555496259905" duration="10204000" />
+      <workItem from="1556246758095" duration="2805000" />
+      <workItem from="1556414803746" duration="4472000" />
+      <workItem from="1557886146871" duration="11709000" />
+      <workItem from="1557968922055" duration="15291000" />
+      <workItem from="1558401496361" duration="12263000" />
+      <workItem from="1558599998605" duration="18820000" />
+      <workItem from="1558687915973" duration="986000" />
+      <workItem from="1559009213385" duration="57784000" />
+      <workItem from="1559527466472" duration="699000" />
+      <workItem from="1559786176827" duration="1332000" />
+      <workItem from="1560325846121" duration="1032000" />
+      <workItem from="1560405160967" duration="28435000" />
+      <workItem from="1560739863434" duration="12072000" />
+      <workItem from="1560849651929" duration="3415000" />
+      <workItem from="1560908411811" duration="18263000" />
+      <workItem from="1561019287360" duration="5056000" />
+      <workItem from="1561452499269" duration="5584000" />
+      <workItem from="1561605083868" duration="300000" />
     </task>
+    <task id="LOCAL-00001" summary="factory">
+      <created>1558085760077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558085760077</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180936000" />
+    <option name="totallyTimeSpent" value="391458000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13738441" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09709379" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,11 +474,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32916668" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993395" weight="0.32916668" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006605" side_tool="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32916668" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32916668" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -323,89 +489,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/detail.html" />
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/index.html" />
-    <entry file="file://$PROJECT_DIR$/water/技术标准.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/water/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/water/images/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="294" column="1" lean-forward="true" selection-start-line="267" selection-end-line="294" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/css/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="1059" selection-start-line="1059" selection-end-line="1059" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/fonts/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/images/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/计算机学院_学者风采.html" />
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/计算机学院.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding>
-            <element signature="e#1289#1295#0" expanded="true" />
-            <element signature="e#1326#1332#0" expanded="true" />
-            <element signature="e#1332#1338#0" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#header#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#header#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#section#0;n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#div#7;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/css/base_college.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/css/list_college.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bistu-news/src/views/学院列表页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -413,187 +505,332 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/css/home_college.css">
+    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/详情页.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2774">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        <state relative-caret-position="627">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/学院-list.html">
+    <entry file="file://$PROJECT_DIR$/hydroInfo/list_else.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="31" selection-end-line="184" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/images/base_20190401.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/images/style_20190401.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="223" column="1" lean-forward="true" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/detail_20190401.html">
+    <entry file="file://$PROJECT_DIR$/hydroInfo/js/idangerous.swiper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <caret line="14" column="22379" selection-start-line="14" selection-start-column="22379" selection-end-line="14" selection-end-column="22379" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/list_20190401.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/专题-0404水文勘探专题/images/idangerous.swiper2.7.6.min.js">
+    <entry file="file://$PROJECT_DIR$/demo/jquery-1.10.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/专题-0404水文勘探专题/images/idangerous.swiper2.7.6.css">
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/idangerous.swiper2.7.6.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/logo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/left.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/hr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="261" column="46" selection-start-line="236" selection-start-column="7" selection-end-line="261" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/marquee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="129" column="12" lean-forward="true" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="490" column="2" selection-start-line="490" selection-start-column="2" selection-end-line="490" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利工程运行管理/images/idangerous.swiper2.7.6.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/images/20190401.jpg">
+    <entry file="file://$PROJECT_DIR$/水利工程运行管理/images/house.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/专题-0404水文勘探专题/images/20190404_banner.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网信工作 会议/index_20190401.html">
+    <entry file="file://$PROJECT_DIR$/水利工程运行管理/images/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="128" column="62" lean-forward="true" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-168">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/专题-0404水文勘探专题/images/base_20190404.css">
+    <entry file="file://$PROJECT_DIR$/水利工程运行管理/images/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="538">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/专题-0404水文勘探专题/images/style_20190404.css">
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="31" />
+        <state relative-caret-position="925">
+          <caret line="37" selection-start-line="37" selection-end-line="44" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/news_bistu/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/next.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/idangerous.swiper2.7.6.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/jquery1.12.4.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/idangerous.swiper.progress.js">
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/images/idangerous.swiper2.7.6.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/logo_1.png">
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/images/bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/logo_6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/专题-0404水文勘探专题/index-0404.html">
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="165" column="39" selection-start-line="165" selection-start-column="39" selection-end-line="165" selection-end-column="39" />
+        <state relative-caret-position="276">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/images/items1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利工程建设/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="34" column="126" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
           <folding>
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/河湖管理司/images/banner.png">
+    <entry file="file://$PROJECT_DIR$/水利工程建设/images/zc.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/河湖管理司/images/7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/河湖管理司/images/8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/logo_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/link.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/河湖管理司/images/base.css">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="19">
+          <caret line="6081" column="4" selection-start-line="6081" selection-start-column="4" selection-end-line="6081" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/河湖管理司/images/next.png">
+    <entry file="file://$PROJECT_DIR$/金水/image/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="29654" selection-start-line="4" selection-start-column="29654" selection-end-line="4" selection-end-column="29654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/images/jquery1.12.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24363" selection-start-line="2" selection-start-column="24363" selection-end-line="2" selection-end-column="24363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/水利工程运行管理/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1587">
+          <caret line="33" column="57" lean-forward="true" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/灌区水效领跑者/images/logo.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/灌区水效领跑者/images/bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/images/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/images/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="230" column="23" lean-forward="true" selection-start-line="230" selection-start-column="23" selection-end-line="230" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/灌区水效领跑者/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#8;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#10;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#11;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/中央团校/images/idangerous.swiper2.7.6.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/中央团校/images/flag.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/中央团校/images/banner_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/中央团校/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/中央团校/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="35" column="36" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bistu-search/image/left.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bistu-search/image/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bistu-search/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/三峡工程管理/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="344" column="63" lean-forward="true" selection-start-line="344" selection-start-column="63" selection-end-line="344" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/中央团校/images/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/中央团校/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/河湖管理司/upload.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/carousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/河湖管理司/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+        <state relative-caret-position="1311">
+          <caret line="213" column="64" selection-start-line="213" selection-start-column="64" selection-end-line="213" selection-end-column="64" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -608,43 +845,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/河湖管理司/images/style.css">
+    <entry file="file://$PROJECT_DIR$/中央团校/images/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+        <state relative-caret-position="836">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/wave.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/ie-css3.htc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/index.html">
+    <entry file="file://$PROJECT_DIR$/demo/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#6;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/水利部水资源管理中心/images/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="1843">
+          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="46" />
         </state>
       </provider>
     </entry>

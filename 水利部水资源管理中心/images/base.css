@@ -23,7 +23,18 @@ img{
     display: block;
     border: none;
 }
-
+.mr{
+    margin-right: 26px;
+}
+.mb{
+    margin-bottom: 16px;
+}
+.search .input{
+    height: 22px;
+    background: url('search.png') no-repeat right center #fff;
+    outline: none;
+    border: 1px solid #cdcdcd;
+}
 .foot{
     margin-top: 30px;
     color: #fff;
