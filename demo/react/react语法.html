@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app"></div>
+
+<script src="./node_modules/babel-standalone/babel.js"></script>
+<script src="./node_modules/react/umd/react.development.js"></script>
+<script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+<script type="text/babel">
+    /*
+    jsx语法
+
+    */
+    const element = `hello`
+    const arr = ["魏","蜀","吴"]
+    const json = { 姓名: '李白', 表字: '太白', 职业: '诗人'}
+    const style = { backgroundColor: 'pink', color: '#f0f'}
+    function handleClick(a, b, c) {
+        console.log(a)
+        console.log(b)
+        console.log(c)
+    }
+
+    // 首字母大写，声明式无状态组件
+    function Section1() {
+        return (
+            <section>section标签主体内容</section>
+        )
+    }
+    const eles = (
+        <div>
+            <ul>{
+
+                // class 是关键字
+                arr.map( (item, index)=>{
+                    return (
+                        <li key={index} className="red">{item}</li>
+                    )
+                })
+            }</ul>
+            <p>
+                {
+                    // 区分是js语法还是jsx语法，函数return中应是jsx语法，便不能有if判断
+                    function () {
+                        if(1){
+                            console.log(1)
+                        } else {
+                            console.log(0)
+                        }
+                        return `函数返回值`
+                    }()
+                }
+            </p>
+            <section style={style}>
+                { JSON.stringify(json) }
+            </section>
+            <section style={style}>
+                { json.表字 }
+            </section>
+            {
+                function () {
+                   return ads()
+                   function ads() {
+                       return 'sdsa'
+                   } 
+                }()
+                // 单标签必须闭合
+            }
+            <input type="button" value="点击事件" onClick={()=>console.log("this") }/>
+            <input type="button" value="点击事件" onClick={function handleClick(){console.log("this")}}/>
+            <input type="text" defaultValue="text类型" onKeyDown={function handleKeyDown(){console.log("text")}}/>
+            <input type="button" value="点击传值" onClick={handleClick.bind(null, '1', '2')}/>
+            <Section1></Section1>
+        </div>
+    )
+    const ele = (
+        <div>
+            <h1>hello react</h1>
+            {'string'}
+        </div>
+    )
+    ReactDOM.render(
+        eles,
+        document.getElementById('app')
+    )
+</script>
+</body>
+</html>

@@ -2,96 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29811b8-7574-4188-b88b-522c65a794ff" name="Default" comment="factory">
-      <change afterPath="$PROJECT_DIR$/bistu-search/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bistu-search/image/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bistu-search/image/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bistu-search/image/paw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bistu-search/image/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/marquee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/idangerous.swiper2.7.6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/idangerous.swiper2.7.6.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/items5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/jquery1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/nav_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/nav_shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/images/wchart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/三峡工程管理/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/banner_top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/emblem_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/emblem_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/idangerous.swiper2.7.6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/idangerous.swiper2.7.6.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/jquery1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/ray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/dzjg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/hr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/idangerous.swiper2.7.6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/idangerous.swiper2.7.6.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/jquery1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/tabs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/tabs_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/triangle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/triangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/w1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/images/zc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程建设/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/2018guohui03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/dzjg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/link-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/link-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/magnifying.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/zc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利部水资源管理中心/images/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利部水资源管理中心/photoswiper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/灌区水效领跑者/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/灌区水效领跑者/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/灌区水效领跑者/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChangeFileName/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/react/react语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/images/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/水利部水资源管理中心/images/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/images/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/水利部水资源管理中心/images/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/水利部水资源管理中心/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/水利部水资源管理中心/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/河湖管理司/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/河湖管理司/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/河湖管理司/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/河湖管理司/upload.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/carousel.html" afterDir="false" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/carousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+            <state relative-caret-position="2755">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -126,21 +41,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/河湖管理司/index.html">
+        <entry file="file://$PROJECT_DIR$/ChangeFileName/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="213" column="64" selection-start-line="213" selection-start-column="64" selection-end-line="213" selection-end-column="64" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="335">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/react/react语法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -154,29 +67,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1843">
-              <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>distance</find>
       <find>this.carousel</find>
       <find>offsetLeft</find>
       <find>-4</find>
@@ -206,6 +109,7 @@
       <find>.m2</find>
       <find>.main</find>
       <find>mb10</find>
+      <find>json</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -218,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网信工作 会议/detail.html" />
-        <option value="$PROJECT_DIR$/网信工作 会议/images/base_20190401.css" />
-        <option value="$PROJECT_DIR$/网信工作 会议/index.html" />
-        <option value="$PROJECT_DIR$/网信工作 会议/detail_20190401.html" />
         <option value="$PROJECT_DIR$/网信工作 会议/list_20190401.html" />
         <option value="$PROJECT_DIR$/网信工作 会议/index_20190401.html" />
         <option value="$PROJECT_DIR$/bistu-news/src/views/css/home.scss" />
@@ -240,7 +140,6 @@
         <option value="$PROJECT_DIR$/水利部水资源管理中心/demo.html" />
         <option value="$PROJECT_DIR$/河湖管理司/images/base.css" />
         <option value="$PROJECT_DIR$/河湖管理司/images/style.css" />
-        <option value="$PROJECT_DIR$/河湖管理司/index.html" />
         <option value="$PROJECT_DIR$/水利部水资源管理中心/images/base.css" />
         <option value="$PROJECT_DIR$/水利部水资源管理中心/index.html" />
         <option value="$PROJECT_DIR$/水利部水资源管理中心/images/style.css" />
@@ -268,7 +167,12 @@
         <option value="$PROJECT_DIR$/中央团校/detail.html" />
         <option value="$PROJECT_DIR$/中央团校/images/style.css" />
         <option value="$PROJECT_DIR$/bistu-search/email.html" />
+        <option value="$PROJECT_DIR$/河湖管理司/index.html" />
+        <option value="$PROJECT_DIR$/ChangeFileName/index.js" />
         <option value="$PROJECT_DIR$/demo/carousel.html" />
+        <option value="$PROJECT_DIR$/ChangeFileName/test.html" />
+        <option value="$PROJECT_DIR$/demo/react/01.html" />
+        <option value="$PROJECT_DIR$/demo/react/react语法.html" />
       </list>
     </option>
   </component>
@@ -289,6 +193,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="ChangeFileName" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -310,27 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="bistu-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="河湖管理司" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,9 +248,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
     <property name="js-jscs-nodeInterpreter" value="E:\Node\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Program Files/nodejs/node_modules/npm" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="D:/Program Files/nodejs/node_modules/npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -369,8 +282,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/work/bistu-news/src/views/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ChangeFileName/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp">
@@ -396,6 +312,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
         <item itemvalue="JavaScript Debug.home.html" />
       </list>
     </recent_temporary>
@@ -438,7 +355,13 @@
       <workItem from="1560908411811" duration="18263000" />
       <workItem from="1561019287360" duration="5056000" />
       <workItem from="1561452499269" duration="5584000" />
-      <workItem from="1561605083868" duration="300000" />
+      <workItem from="1561605083868" duration="4643000" />
+      <workItem from="1561687914554" duration="599000" />
+      <workItem from="1561944271640" duration="16602000" />
+      <workItem from="1562208151182" duration="9736000" />
+      <workItem from="1562554562565" duration="599000" />
+      <workItem from="1562567011596" duration="15333000" />
+      <workItem from="1563155806302" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary="factory">
       <created>1558085760077</created>
@@ -447,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558085760077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="factory">
+      <created>1561605419611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561605419611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391458000" />
+    <option name="totallyTimeSpent" value="440634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,19 +395,19 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09709379" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11690885" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24305555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993395" weight="0.32916668" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006605" side_tool="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49867898" weight="0.048611112" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.501321" side_tool="true" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32916668" />
@@ -494,31 +424,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="factory" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/学院列表页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bistu-news/src/views/详情页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hydroInfo/list_else.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hydroInfo/js/idangerous.swiper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -813,24 +718,10 @@
     <entry file="file://$PROJECT_DIR$/河湖管理司/upload.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/carousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/河湖管理司/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="213" column="64" selection-start-line="213" selection-start-column="64" selection-end-line="213" selection-end-column="64" />
+        <state relative-caret-position="1873">
+          <caret line="247" column="11" selection-start-line="247" selection-start-column="11" selection-end-line="247" selection-end-column="11" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -845,6 +736,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2798">
+          <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChangeFileName/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#picture#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/carousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/中央团校/images/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -852,10 +774,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/test.js">
+    <entry file="file://$PROJECT_DIR$/ChangeFileName/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="101" selection-end-column="46" />
+        <state relative-caret-position="335">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/react/react语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
         </state>
       </provider>
     </entry>

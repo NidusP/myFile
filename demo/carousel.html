@@ -147,7 +147,8 @@
         Carousel.prototype = {
             init: function () {
                 this.distance = this.carousel.children[0].offsetWidth;
-                this.carousel.appendChild(this.carousel.children[0].cloneNode(true))
+                this.carousel.appendChild(this.carousel.children[0].cloneNode(true));
+                this.carousel.insertBefore(this.carousel.children[1].cloneNode(true),this.carousel.children[0]);
                 var _this = this;
                 this.initTime = setInterval(this.next().bind(this), this.autoplay)
                 this.container.addEventListener('mouseenter', function () {
