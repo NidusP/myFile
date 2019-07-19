@@ -36,9 +36,9 @@
     }
 
     // 首字母大写，声明式无状态组件
-    function Section1() {
+    function Section1(props) {
         return (
-            <section>section标签主体内容</section>
+            <section>{props.title}</section>
         )
     }
     const eles = (
@@ -84,7 +84,7 @@
             <input type="button" value="点击事件" onClick={function handleClick(){console.log("this")}}/>
             <input type="text" defaultValue="text类型" onKeyDown={function handleKeyDown(){console.log("text")}}/>
             <input type="button" value="点击传值" onClick={handleClick.bind(null, '1', '2')}/>
-            <Section1></Section1>
+            <Section1 title="section1组件内容（存于title属性）"></Section1>
         </div>
     )
     const ele = (

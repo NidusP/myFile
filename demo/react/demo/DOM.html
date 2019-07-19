@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+<script src="./node_modules/babel-standalone/babel.js"></script>
+<script src="./node_modules/react/umd/react.development.js"></script>
+<script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+<script type="text/babel">
+    class List extends React.Component{
+        render() {
+            console.log( this.props )
+            return (
+                <div>
+                    <h2>这是List组件的内容 {this.props.data_f}</h2>
+                    <h2>这是List组件的内容 {this.props.data}</h2>
+                    <button onClick={this.props.fn.bind(this, this.props.data)}>子组件调用父组件方法</button>
+                </div>
+            );
+        }
+    }
+    class Element extends React.Component{
+        state = {
+            data: '父组件请求获得的值'
+        }
+        handleClick = (e) => {
+            console.log(this)
+            console.log(ReactDOM.findDOMNode(this._List)) //组件的节点
+            console.log(document.querySelector('div'))
+            console.log(ReactDOM.findDOMNode(this._div) == this._div)
+
+            //console.log(e.target)
+            console.log(this.refs.btn.style.backgroundColor = 'pink')
+
+            ReactDOM.findDOMNode(document.querySelector('input')).style.backgroundColor = 'pink'
+        }
+        getData = (data) => {
+            console.log(" 父组件的值 ")
+            console.log( data )
+        }
+        render() {
+            return (
+                <div>
+                    <input
+                        ref={'btn'}
+                        type="button"
+                        value="操作DOM"
+                        onClick={this.handleClick} />
+                    <div ref={
+                        (item) => {
+                            this._div = item
+                        }
+                    }></div>
+                    <List
+                        data_f={'父组件的值'}
+                        fn={ this.getData }
+                        data={ this.state.data }
+                        ref={
+                        (item) => {
+                            this._List = item
+                        }
+                    }></List>
+                </div>
+            );
+        }
+    }
+    ReactDOM.render(
+        <Element></Element>,
+        document.getElementById('app')
+    )
+</script>
+</html>

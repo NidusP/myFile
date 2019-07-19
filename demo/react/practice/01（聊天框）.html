@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <style>
+        #app{
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #222222;
+            box-sizing: border-box;
+        }
+        h3{
+            background-color: #CCCCCC;
+        }
+        ul{
+            padding: 0;
+        }
+        ul li{
+            margin: 2px auto;
+            background-color: lightpink;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+<script src="../node_modules/babel-standalone/babel.js"></script>
+<script src="../node_modules/react/umd/react.development.js"></script>
+<script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+<script src="./js/data.js"></script>
+<script type="text/babel">
+    class App extends React.Component{
+        state = {
+            switchArr: [true, false, false]
+        }
+        getData = () => {
+            return dataList
+        }
+        handleClick = (index) => {
+            const arr = this.state.switchArr
+            arr[index] = !arr[index]
+            this.setState({   //setState同步
+                switchArr:  arr
+            })
+            //this.state.switchArr[index] = !this.state.switchArr[index]
+            console.log(this.state.switchArr)
+        }
+        render(){
+            const data =  this.getData()
+            return(
+                <div className="container">
+                    <h2>聊天框demo</h2>
+                    <div className="content">
+                        {
+                            Object.keys(data).map((item, index) => {
+                                return(
+                                    <div
+                                        key={index}
+                                        className="item"
+                                    >
+                                        <h3 onClick={this.handleClick.bind(this, index)}>{ data[item]['name']}</h3>
+                                        {
+                                            this.state.switchArr[index] && (
+                                                <ul>
+                                                    {
+                                                        data[item]['list'].map((item, index) => {
+                                                            return(
+                                                                <li key={index}>{item['name']}</li>
+                                                            )
+                                                        })
+                                                    }
+                                                </ul>
+                                            )
+                                        }
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+            )
+        }
+    }
+    ReactDOM.render(
+        <App></App>,
+        document.getElementById("app")
+    )
+</script>
+</html>
