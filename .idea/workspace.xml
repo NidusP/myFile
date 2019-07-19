@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29811b8-7574-4188-b88b-522c65a794ff" name="Default" comment="更新">
-      <change beforePath="$PROJECT_DIR$/demo/react/practice/02（todo）.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/react/practice/02（todo）.html" afterDir="false" />
-    </list>
+    <list default="true" id="a29811b8-7574-4188-b88b-522c65a794ff" name="Default" comment="最新更新" />
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/react/practice/02（todo）.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="327">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -214,11 +212,6 @@
               <item name="work" type="b2602c69:ProjectViewProjectNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -367,7 +360,7 @@
       <workItem from="1563155806302" duration="4846000" />
       <workItem from="1563174154407" duration="1312000" />
       <workItem from="1563240394995" duration="16229000" />
-      <workItem from="1563499310648" duration="9038000" />
+      <workItem from="1563499310648" duration="9290000" />
     </task>
     <task id="LOCAL-00001" summary="factory">
       <created>1558085760077</created>
@@ -397,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563530133239</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="最新更新">
+      <created>1563530942093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563530942093</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470095000" />
+    <option name="totallyTimeSpent" value="470347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,7 +414,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13011889" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -483,7 +482,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="factory" />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="最新更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="最新更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bootstrap/js/bootstrap.js">
@@ -847,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/react/practice/02（todo）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="327">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
