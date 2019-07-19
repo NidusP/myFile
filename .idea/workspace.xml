@@ -2,299 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29811b8-7574-4188-b88b-522c65a794ff" name="Default" comment="更新">
-      <change afterPath="$PROJECT_DIR$/ChangeFileName/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/jquery-1.10.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/DOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/.bin/babel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/.bin/babel-external-helpers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/.bin/babel-external-helpers.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/.bin/babel-node" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/.bin/babel-node.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/.bin/babel.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/.package_versions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/babel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/src/babel-package-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/src/babili.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel-standalone@6.26.0@babel-standalone/src/transformScriptTags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel@6.23.0@babel/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel@6.23.0@babel/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel@6.23.0@babel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel@6.23.0@babel/lib/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_babel@6.23.0@babel/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_js-tokens@4.0.0@js-tokens/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_js-tokens@4.0.0@js-tokens/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_js-tokens@4.0.0@js-tokens/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_js-tokens@4.0.0@js-tokens/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_js-tokens@4.0.0@js-tokens/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/loose-envify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_loose-envify@1.4.0@loose-envify/replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_object-assign@4.1.1@object-assign/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_object-assign@4.1.1@object-assign/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_object-assign@4.1.1@object-assign/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_object-assign@4.1.1@object-assign/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/checkPropTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/factory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/factoryWithThrowingShims.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/factoryWithTypeCheckers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/lib/ReactPropTypesSecret.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/prop-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_prop-types@15.7.2@prop-types/prop-types.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.node.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.node.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-test-utils.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fire.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fire.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fire.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.node.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.node.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/profiling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/server.browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/server.node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/test-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-server.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-test-utils.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fire.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fire.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fire.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/unstable-fizz.browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/unstable-fizz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/unstable-fizz.node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-dom@16.8.6@react-dom/unstable-native-dependencies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/cjs/react-is.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/cjs/react-is.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/umd/react-is.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react-is@16.8.6@react-is/umd/react-is.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/cjs/react.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/cjs/react.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/umd/react.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/umd/react.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_react@16.8.6@react/umd/react.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler-tracing.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler-tracing.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler-tracing.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/tracing-profiling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/tracing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler-tracing.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler-tracing.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler-tracing.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/demo/stateANDprops.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/babel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/src/babel-package-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/src/babili.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_babel-standalone@6.26.0@babel-standalone/src/transformScriptTags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_js-tokens@4.0.0@js-tokens/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_js-tokens@4.0.0@js-tokens/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_js-tokens@4.0.0@js-tokens/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_js-tokens@4.0.0@js-tokens/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_js-tokens@4.0.0@js-tokens/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/loose-envify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_loose-envify@1.4.0@loose-envify/replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_object-assign@4.1.1@object-assign/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_object-assign@4.1.1@object-assign/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_object-assign@4.1.1@object-assign/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_object-assign@4.1.1@object-assign/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/checkPropTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/factory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/factoryWithThrowingShims.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/factoryWithTypeCheckers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/lib/ReactPropTypesSecret.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/prop-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_prop-types@15.7.2@prop-types/prop-types.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.node.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-server.node.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-test-utils.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fire.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fire.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fire.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.node.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-fizz.node.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/cjs/react-dom.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/profiling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/server.browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/server.node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/test-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-server.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-test-utils.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fire.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fire.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fire.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/umd/react-dom.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/unstable-fizz.browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/unstable-fizz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/unstable-fizz.node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-dom@16.8.6@react-dom/unstable-native-dependencies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/cjs/react-is.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/cjs/react-is.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/umd/react-is.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react-is@16.8.6@react-is/umd/react-is.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/cjs/react.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/cjs/react.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/umd/react.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/umd/react.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_react@16.8.6@react/umd/react.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/build-info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler-tracing.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler-tracing.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler-tracing.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/cjs/scheduler.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/node_modules/.bin/loose-envify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/node_modules/.bin/loose-envify.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/tracing-profiling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/tracing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler-tracing.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler-tracing.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler-tracing.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler.production.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/node_modules/_scheduler@0.13.6@scheduler/umd/scheduler.profiling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/practice/01（聊天框）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/practice/02（todo）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/react/practice/js/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中央团校/images/idangerous.swiper.progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/idangerous.swiper2.7.6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利工程运行管理/images/idangerous.swiper2.7.6.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利部水资源管理中心/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利部水资源管理中心/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/水利部水资源管理中心/upload.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/河湖管理司/20190417_bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/河湖管理司/20190417_bj111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/河湖管理司/20190417_tpbd.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/react/react语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/react/react语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/react/practice/02（todo）.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/react/practice/02（todo）.html" afterDir="false" />
     </list>
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -349,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/react/practice/02（todo）.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="283">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -511,19 +219,6 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -562,7 +257,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="D:/Program Files/nodejs/node_modules/npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -672,7 +367,7 @@
       <workItem from="1563155806302" duration="4846000" />
       <workItem from="1563174154407" duration="1312000" />
       <workItem from="1563240394995" duration="16229000" />
-      <workItem from="1563499310648" duration="8398000" />
+      <workItem from="1563499310648" duration="9038000" />
     </task>
     <task id="LOCAL-00001" summary="factory">
       <created>1558085760077</created>
@@ -695,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563158164758</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新">
+      <created>1563530133239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563530133239</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469455000" />
+    <option name="totallyTimeSpent" value="470095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/react/practice/02（todo）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="283">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>
