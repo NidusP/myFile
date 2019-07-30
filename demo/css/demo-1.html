@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="render" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #effect{
+            line-height: 1.5;
+        }
+
+        dl{
+            margin: 0; padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        dd {
+            word-break: break-all;
+            text-align: right;
+            margin-left: 0;
+        }
+
+        .dl1{
+
+        }
+        .dl1 dt{
+            position: absolute;
+        }
+        .dl1 dd{
+            margin-left: 5em;
+        }
+        .dl2 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .dl2 dt{
+            width: 5em;
+        }
+        .dl2 dd {
+            width: calc(100% - 5em);
+        }
+
+        .dl3 {
+            display: grid;
+            grid-template-columns: 5em 1fr;
+            /*grid-column-gap: 1em;*/
+        }
+        .dl3 dd{
+            text-align: right;
+            background-color: #0f7bbb;
+        }
+
+        .dl4 dt{
+            float: left;
+            width: 5em;
+        }
+        .dl4 dd {
+            overflow: hidden;
+        }
+        dd:empty::before {
+            content: '-';
+            color: #999;
+        }
+
+        .dl5 dd{
+            margin: -1.5em 0 0 5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="effect" class="part">
+    <h3>效果：</h3>
+    <div class="show">
+        <div class="demo" style="margin-bottom:-20px;">
+            <p>宽度调节(240-414)：<input type="range" min="240" max="414" value="414" oninput="demo.style.width = this.value + 'px';"></p>
+            <p>字号调节(12-16)：<input type="range" min="12" max="16" value="14" oninput="demo.style.fontSize = this.value + 'px';"></p>
+        </div>
+        <div id="demo" class="demo" style=" width: 414px;">
+            <h4>1. absolute实现</h4>
+            <dl class="dl1">
+                <dt>手机系统</dt>
+                <dd>Android</dd>
+                <dt>登录方式</dt>
+                <dd>QQ互联登录</dd>
+                <dt>绑定事件</dt>
+                <dd>2019-01-02 00:01</dd>
+                <dt>绑定状态</dt>
+                <dd>成功</dd>
+                <dt>备注</dt>
+                <dd>如果需要修改绑定，请联系HR进行修改</dd>
+            </dl>
+            <h4>2. flex实现</h4>
+            <dl class="dl2">
+                <dt>手机系统</dt>
+                <dd>Android</dd>
+                <dt>登录方式</dt>
+                <dd>QQ互联登录</dd>
+                <dt>绑定事件</dt>
+                <dd>2019-01-02 00:01</dd>
+                <dt>绑定状态</dt>
+                <dd>成功</dd>
+                <dt>备注</dt>
+                <dd>如果需要修改绑定，请联系HR进行修改</dd>
+            </dl>
+            <h4>3. grid实现</h4>
+            <dl class="dl3">
+                <dt>手机系统</dt>
+                <dd>Android</dd>
+                <dt>登录方式</dt>
+                <dd>QQ互联登录</dd>
+                <dt>绑定事件</dt>
+                <dd>2019-01-02 00:01</dd>
+                <dt>绑定状态</dt>
+                <dd>成功</dd>
+                <dt>备注</dt>
+                <dd>如果需要修改绑定，请联系HR进行修改</dd>
+            </dl>
+            <h4>4. float实现</h4>
+            <dl class="dl4">
+                <dt>手机系统</dt>
+                <dd>Android</dd>
+                <dt>登录方式</dt>
+                <dd>QQ互联登录</dd>
+                <dt>绑定事件</dt>
+                <dd>2019-01-02 00:01</dd>
+                <dt>绑定状态</dt>
+                <dd>成功</dd>
+                <dt>备注</dt>
+                <dd>如果需要修改绑定，请联系HR进行修改</dd>
+            </dl>
+            <h4>5. 流体特性实现</h4>
+            <dl class="dl5">
+                <dt>手机系统</dt>
+                <dd>Android</dd>
+                <dt>登录方式</dt>
+                <dd>QQ互联登录</dd>
+                <dt>绑定事件</dt>
+                <dd>2019-01-02 00:01</dd>
+                <dt>绑定状态</dt>
+                <dd>成功</dd>
+                <dt>备注</dt>
+                <dd>如果需要修改绑定，请联系HR进行修改</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+</body>
+</html>

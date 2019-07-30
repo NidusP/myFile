@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结果页面</title>
+</head>
+<body>
+    <a href="/">点击返回首页</a>
+    <p>这次查询的时间是<%= t %></p>
+
+    <ul>
+        <% for(let i=0;i<result.length;i++){ %>
+            <li><%= result[i]%></li>
+        <% } %>
+    </ul>
+</body>
+</html>

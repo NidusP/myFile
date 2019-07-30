@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+argument与剩余参数
+<div id="box">1
+    <div>1</div>
+    <div>2</div>
+</div>
+<script>
+    let a = new String("123");
+    let b = a;
+
+    console.log(b)
+
+
+
+    console.log(box.nextSibling);
+    //console.log(document.body.textContent);
+    console.log(document.body.firstChild);
+
+    console.log(box.children, box.childNodes);
+    box.removeChild(box.childNodes[2])
+
+    function myClass(){}
+    myClass.prototype.print = function(){
+        console.log("静态方法.")
+    }
+
+    const o1 = new myClass();
+    o1.print()
+    class Class1{
+        constructor(){};
+        static print(){
+            console.log("静态方法111.")
+        };
+        print1(){
+            console.log("方法111.")
+        }
+    }
+    const o2 = new Class1();
+    Class1.print()
+    o2.print1()
+
+
+    let str = "123";
+    let str1 = new String("123");
+    String.prototype.num = 1;
+
+    console.log(str1, str.num, String.prototype === str1.__proto__);
+    console.log("----------------------------------------------------")
+    class Person{
+        constructor(obj){
+            this.a = obj.a;
+        }
+        speak(){
+
+        }
+    }
+    function f() {
+        
+    };
+
+    let person = new Person({a:"张三"});
+    for(let key in person){
+        console.log(key)
+    }
+    console.log(person,Person.prototype);
+
+</script>
+</body>
+</html>
