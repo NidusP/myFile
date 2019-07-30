@@ -10,14 +10,61 @@
 </head>
 <body>
     <div id="app">
-
     </div>
 </body>
 <script src="../node_modules/babel-standalone/babel.js"></script>
 <script src="../node_modules/react/umd/react.development.js"></script>
 <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
 <script type="text/babel">
-    class todoList extends React.Component{
+    class App extends React.Component{
+        constructor(){
+            super()
+            this.state = {
+                list: [
+                    {
+                        title: 'VUE',
+                        checked: true
+                    },
+                    {
+                        title: 'angular',
+                        checked: true
+                    },
+                    {
+                        title: 'typescript',
+                        checked: true
+                    },
+                    {
+                        title: 'css',
+                        checked: false
+                    },
+                    {
+                        title: 'js',
+                        checked: false
+                    },
+                ]
+            }
+        }
+        addData = (event) => {
+            if( this._Input.value.trim() && event.keyCode === 13 ){
+                let list = this.state.list
+                list.push({
+                    title: this._Input.value,
+                    checked: false
+                })
+                this.setState({
+                    list: list
+                })
+                this._Input.value = ''
+            }
+        }
+        handleCheck = (index) => {
+            let list = this.state.list
+            console.log(list)
+            list[index]['checked'] = !list[index]['checked']
+            this.setState({
+                list: list
+            })
+        }
         render(){
             return(
                 <div className="container">
@@ -25,15 +72,44 @@
                         <span>请输入需要添加的内容：</span>
                         <input
                             type="text"
+                            onKeyUp={ this.addData }
+                            ref={
+                                (item) => {
+                                    this._Input = item
+                                }
+                            }
                         />
-                        <h2></h2>
+                        <h2>还没学习的课程</h2>
+                        <ul>
+                            {
+                                this.state.list.map( (item, index) => {
+                                    if(!item.checked){
+                                        return (
+                                            <li key={index}><input type="checkbox" defaultChecked={item.checked} onClick={this.handleCheck.bind(this,index)}/>{item.title}</li>
+                                        )
+                                    }
+                                })
+                            }
+                        </ul>
+                        <h2>已经学过的课程</h2>
+                        <ul>
+                            {
+                                this.state.list.map( (item, index) => {
+                                    if(item.checked){
+                                        return (
+                                            <li key={index}><input type="checkbox" defaultChecked={item.checked} onClick={this.handleCheck.bind(this,index)}/>{item.title}</li>
+                                        )
+                                    }
+                                })
+                            }
+                        </ul>
                     </header>
                 </div>
             )
         }
     }
     ReactDOM.render(
-        <todoList></todoList>,
+        <App></App>,
         document.getElementById('app')
     )
 </script>
